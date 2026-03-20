@@ -9,7 +9,7 @@ document
 
 window.addEventListener("scroll", () => {
   document.getElementById("navbar").style.background =
-    window.scrollY > 60 ? "rgba(1,13,46,0.99)" : "rgba(1,13,46,0.94)";
+    window.scrollY > 60 ? "rgba(11,36,105,0.99)" : "rgba(11,36,105,0.94)";
 });
 
 const observer = new IntersectionObserver(
