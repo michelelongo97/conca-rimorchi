@@ -827,6 +827,13 @@ section {
   line-height: 1.65;
 }
 
+.assistenza-resume {
+  font-size: 1rem;
+  color: var(--testo-sec);
+  line-height: 1.65;
+  padding: 40px 0;
+}
+
 /* ── CONTATTI ── */
 #contatti {
   background: var(--blu-scuro);

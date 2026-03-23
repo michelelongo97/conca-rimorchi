@@ -11,17 +11,17 @@
   </div>
   <div class="hero-inner">
     <div class="hero-text">
-      <div class="hero-tag">Dal 2010 · Andria – Corato (BT)</div>
+      <div class="hero-tag">Dal 2010</div>
       <h1 class="hero-title">
         Vendita e<br>
         <span class="line-verde">assistenza</span><br>
         rimorchi
       </h1>
       <p class="hero-desc">
-        Conca Rimorchi è il punto di riferimento per vendita e assistenza di rimorchi, pensati per rispondere
-alle esigenze di professionisti, aziende e privati.
-Da anni lavoriamo con un obiettivo preciso: offrire mezzi sicuri, performanti e conformi alle normative, affiancando
-ogni cliente con competenza e disponibilità.
+        Conca Rimorchi è il punto di riferimento per <strong>vendita e assistenza di rimorchi</strong>, pensati per rispondere
+        alle esigenze di <strong>professionisti, aziende e privati</strong>.
+        Da anni lavoriamo con un obiettivo preciso: offrire mezzi <strong>sicuri, performanti e conformi alle normative</strong>, affiancando
+        ogni cliente con <strong>competenza e disponibilità</strong>.
       </p>
       <div class="hero-actions">
         <a href="#prodotti" class="btn-primary">
@@ -34,7 +34,7 @@ ogni cliente con competenza e disponibilità.
     <div class="hero-image-area">
       <div class="hero-placeholder">
         <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-        <p>Inserisci foto flotta</p>
+        <p>foto flotta</p>
       </div>
       <div class="hero-stats">
         <div class="stat-item">
@@ -70,36 +70,21 @@ ogni cliente con competenza e disponibilità.
           <svg viewBox="0 0 24 24"><path d="M19 7h-3V6a4 4 0 0 0-8 0v1H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zm-9-1a2 2 0 0 1 4 0v1h-4V6zm10 14H4V9h3v1a1 1 0 0 0 2 0V9h6v1a1 1 0 0 0 2 0V9h3v11z"/></svg>
         </div>
         <div class="service-name">Assistenza e Manutenzione</div>
-        <p class="service-desc">Forniamo un servizio di assistenza tecnica specializzata pensato per garantire nel tempo l’efficienza, la sicurezza e
-l’affidabilità dei mezzi.
-Ogni intervento viene eseguito da personale qualificato, con attenzione ai dettagli e nel pieno rispetto delle normative
-vigenti.
-Ci occupiamo di manutenzione ordinaria e straordinaria, controlli tecnici periodici e riparazioni mirate, intervenendo in
-modo tempestivo per ridurre fermi operativi e imprevisti.
-Il nostro obiettivo è assicurare mezzi sempre pronti all’uso, sicuri su strada e performanti nel lavoro quotidiano.</p>
+        <p class="service-desc">Forniamo un servizio di <strong>assistenza tecnica specializzata</strong> pensato per garantire nel tempo l'efficienza, la sicurezza e l'affidabilità dei mezzi. Ogni intervento viene eseguito da <strong>personale qualificato</strong>, con attenzione ai dettagli e nel pieno rispetto delle normative vigenti. Ci occupiamo di <strong>manutenzione ordinaria e straordinaria</strong>, controlli tecnici periodici e riparazioni mirate, intervenendo in modo tempestivo per ridurre <strong>fermi operativi e imprevisti</strong>.</p>
       </div>
       <div class="service-card fade-in fade-delay-1">
         <div class="service-icon">
           <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
         </div>
         <div class="service-name">Consulenza Tecnica Personalizzata</div>
-        <p class="service-desc">Ogni cliente ha esigenze diverse, per questo offriamo un servizio di consulenza tecnica su misura.
-Analizziamo attentamente le necessità operative, il tipo di utilizzo e il contesto lavorativo per individuare la soluzione
-più adatta.
-Grazie alla nostra esperienza, aiutiamo a ottimizzare prestazioni, costi e funzionalità del mezzo, guidando il cliente
-verso una scelta consapevole e realmente efficace.
-Un supporto concreto che fa la differenza, prima e dopo l’acquisto o il noleggio.</p>
+        <p class="service-desc">Ogni cliente ha esigenze diverse, per questo offriamo un servizio di <strong>consulenza tecnica su misura</strong>. Analizziamo attentamente le <strong>necessità operative</strong>, il tipo di utilizzo e il contesto lavorativo per individuare la soluzione più adatta. Grazie alla nostra esperienza, aiutiamo a ottimizzare <strong>prestazioni, costi e funzionalità</strong> del mezzo, guidando il cliente verso una <strong>scelta consapevole e realmente efficace</strong>.</p>
       </div>
       <div class="service-card fade-in fade-delay-2">
         <div class="service-icon">
           <svg viewBox="0 0 24 24"><path d="M13.78 15.3L19.78 21.3L21.89 19.14L15.89 13.14L13.78 15.3M17.5 11.5C17.5 12.6 17.06 13.58 16.35 14.28L17.75 15.67C18.82 14.62 19.5 13.14 19.5 11.5C19.5 8.47 17.29 5.96 14.39 5.5C12.57 5.23 10.74 5.88 9.59 7.18L11.01 8.59C11.72 7.79 12.78 7.38 13.88 7.5C15.87 7.73 17.5 9.46 17.5 11.5M13.5 16.5C13.5 15.4 13.94 14.42 14.65 13.72L13.25 12.33C12.18 13.38 11.5 14.86 11.5 16.5H13.5M9.16 15.88C8.12 14.87 7.5 13.47 7.5 12C7.5 10.5 8.09 9.13 9.06 8.12L7.65 6.72C6.32 8.09 5.5 9.95 5.5 12C5.5 14.06 6.33 15.93 7.67 17.3L9.16 15.88M11.5 20H13.5C13.5 19.45 13.29 18.92 12.91 18.53L11.5 20Z"/></svg>
         </div>
         <div class="service-name">Supporto Post-Vendita</div>
-        <p class="service-desc">Per Conca Rimorchi il rapporto con il cliente non si conclude con la consegna del mezzo.
-Garantiamo un supporto post-vendita costante, offrendo assistenza, informazioni tecniche e aggiornamenti nel tempo.
-Siamo a disposizione per rispondere a ogni esigenza, fornire chiarimenti e accompagnare il cliente nella gestione del
-mezzo, assicurando continuità, affidabilità e tranquillità operativa.
-Perché il nostro lavoro è costruire relazioni durature basate sulla fiducia.</p>
+        <p class="service-desc">Per Conca Rimorchi il rapporto con il cliente <strong>non si conclude con la consegna del mezzo</strong>. Garantiamo un <strong>supporto post-vendita costante</strong>, offrendo assistenza, informazioni tecniche e aggiornamenti nel tempo. Siamo a disposizione per rispondere a ogni esigenza, assicurando <strong>continuità, affidabilità e tranquillità operativa</strong>.</p>
       </div>
     </div>
   </div>
@@ -110,7 +95,7 @@ Perché il nostro lavoro è costruire relazioni durature basate sulla fiducia.</
   <div class="section-inner">
     <div class="section-tag">Gamma completa</div>
     <h2 class="section-title">I nostri rimorchi</h2>
-    <p class="section-subtitle" style="margin-bottom: 48px;">Semirimorchi nuovi e usati per ogni esigenza del trasporto professionale.</p>
+    <p class="section-subtitle" style="margin-bottom: 48px;">Semirimorchi <strong>nuovi e usati</strong> per ogni esigenza del <strong>trasporto professionale</strong>.</p>
     <div class="products-grid">
 
       <div class="product-card fade-in">
@@ -221,10 +206,7 @@ Perché il nostro lavoro è costruire relazioni durature basate sulla fiducia.</
         <div class="section-tag">La nostra storia</div>
         <h2 class="section-title">Un'azienda<br>fatta di passione</h2>
         <div class="accent-divider"></div>
-        <p>Conca Rimorchi nasce ufficialmente nel <strong>2010</strong> dall'esperienza di <strong>Leonardo Conca</strong>, agente di commercio nel settore dei veicoli industriali sin dal 1998.</p>
-        <p>La passione per i mezzi affonda le radici molto più lontano: Leonardo cresce a stretto contatto con questo mondo, seguendo il padre autotrasportatore durante le estati, respirando strada, lavoro e sacrificio.</p>
-        <p>La sede operativa si trova <strong>tra Andria e Corato</strong>, nel cuore della Puglia — un'area strategica per il settore dei mezzi industriali.</p>
-        <p>Oggi Conca Rimorchi continua a crescere mantenendo salde le proprie origini, con uno sguardo sempre rivolto al futuro e la stessa passione di allora.</p>
+        <p>Conca Rimorchi nasce dalla <strong>passione autentica per il mondo del trasporto</strong> e dalla volontà di offrire soluzioni <strong>solide, funzionali e pensate per durare nel tempo</strong>. Un percorso costruito giorno dopo giorno, fondato su <strong>serietà, competenza tecnica e attenzione ai dettagli</strong>, valori che ci hanno permesso di instaurare <strong>rapporti di fiducia duraturi</strong> con clienti e partner. Ogni rimorchio, ogni servizio e ogni intervento è pensato per garantire <strong>sicurezza, efficienza e tranquillità operativa</strong>.</p>
         <div class="azienda-values">
           <div class="value-item">
             <div class="value-dot"></div>
@@ -270,7 +252,7 @@ Perché il nostro lavoro è costruire relazioni durature basate sulla fiducia.</
   <div class="section-inner">
     <div class="section-tag">Competenza tecnica</div>
     <h2 class="section-title">Assistenza<br>specializzata</h2>
-    <p class="section-subtitle">Supporto completo per la manutenzione, la riparazione e il ripristino dei tuoi rimorchi. Interventi rapidi, personale qualificato, carrozzeria interna.</p>
+    <p class="section-subtitle">Supporto completo per la <strong>manutenzione, la riparazione e il ripristino</strong> dei tuoi rimorchi. Interventi rapidi, <strong>personale qualificato</strong>, carrozzeria interna.</p>
     <div class="assistenza-grid">
       <div class="assistenza-card fade-in">
         <div class="assistenza-num">01</div>
@@ -289,19 +271,20 @@ Perché il nostro lavoro è costruire relazioni durature basate sulla fiducia.</
       </div>
       <div class="assistenza-card fade-in fade-delay-3">
         <div class="assistenza-num">04</div>
-        <div class="assistenza-name">Carrozzeria interna</div>
+        <div class="assistenza-name">Carrozzeria</div>
         <p class="assistenza-desc">Interventi strutturali ed estetici per riparare danni da usura o incidenti. Ripristino completo, funzionale e visivo.</p>
       </div>
       <div class="assistenza-card fade-in fade-delay-1">
         <div class="assistenza-num">05</div>
-        <div class="assistenza-name">Supporto post-vendita</div>
-        <p class="assistenza-desc">Il rapporto non si conclude con la consegna. Siamo disponibili per ogni esigenza, informazione tecnica e aggiornamento nel tempo.</p>
+        <div class="assistenza-name">Consulenza post-vendita</div>
+        <p class="assistenza-desc">Supporto continuo. Siamo disponibili per ogni esigenza, informazione tecnica e aggiornamento nel tempo.</p>
       </div>
       <div class="assistenza-card fade-in fade-delay-2">
-        <div class="assistenza-num">06</div>
-        <div class="assistenza-name">Ricambi originali</div>
-        <p class="assistenza-desc">Ricambi originali e compatibili con supporto tecnico per individuare il componente più adatto a ogni esigenza.</p>
-      </div>
+        
+       
+        <p class="assistenza-resume">Per noi l’assistenza non è un servizio accessorio, ma una parte integrante del nostro lavoro, fondamentale per garantire
+          continuità operativa e tranquillità a chi ci sceglie.
+        </p>
     </div>
   </div>
 </section>
@@ -309,9 +292,9 @@ Perché il nostro lavoro è costruire relazioni durature basate sulla fiducia.</
 <!-- CONTATTI -->
 <section id="contatti">
   <div class="section-inner">
-    <div class="section-tag">Parlaci del tuo progetto</div>
+    <div class="section-tag">Siamo a tua disposizione</div>
     <h2 class="section-title">Contattaci</h2>
-    <p class="section-subtitle">Hai bisogno di informazioni o vuoi un preventivo? Siamo pronti ad ascoltarti.</p>
+    <p class="section-subtitle">Hai bisogno di informazioni, vuoi un <strong>preventivo</strong> o desideri una <strong>consulenza personalizzata</strong>? Contatta Conca Rimorchi: il nostro team è pronto ad ascoltarti e guidarti verso la <strong>soluzione più adatta</strong> alle tue esigenze.</p>
     <div class="contatti-grid">
       <div>
         <form id="contact-form" onsubmit="handleSubmit(event)">
@@ -379,15 +362,15 @@ Perché il nostro lavoro è costruire relazioni durature basate sulla fiducia.</
           <div class="info-label">Sede</div>
           <div class="info-value">Andria - Trani (BT)</div>
           <p class="info-note">S.P. 231 (ex SS. 98) Km 42100, Andria<br>
-        C.da Capitolo<br>
-       Trani (BA) 75125<br></p>
+            C.da Capitolo<br>
+            Trani (BA) 75125<br></p>
 
- <a href="https://maps.app.goo.gl/tk7LzWXqG5YHveWn7" target="_blank" rel="noopener" class="maps-btn">
-      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
-<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M28.292,1.326c-1.066,-0.21 -2.165,-0.326 -3.292,-0.326c-4.71,0 -8.98,1.93 -12.06,5.04l6.92,5.592zM18.595,13.178l-6.975,-5.628c-2.27,2.88 -3.62,6.52 -3.62,10.45c0,2.281 0.452,4.487 1.304,6.534zM22.608,11.432c0.745,-0.273 1.546,-0.432 2.392,-0.432c3.87,0 7,3.13 7,7c0,0.338 -0.032,0.667 -0.078,0.992l7.772,-9.499c-2.058,-3.539 -5.348,-6.268 -9.285,-7.595zM27.341,24.591c-0.733,0.26 -1.519,0.409 -2.341,0.409c-3.87,0 -7,-3.13 -7,-7c0,-0.354 0.034,-0.7 0.084,-1.039l-7.803,9.537c0.386,0.666 0.809,1.315 1.289,1.932c0.37,0.5 0.87,1.14 1.45,1.89c1.267,1.633 2.959,3.816 4.59,6.164zM18.778,38.215c2.082,3.184 3.852,6.497 4.172,9.055c0.14,0.99 0.99,1.73 1.99,1.73c1.02,0 1.87,-0.75 1.99,-1.75c0.61,-4.83 6.57,-12.48 9.78,-16.6c0.56,-0.72 1.05,-1.35 1.5,-1.94c2.44,-3.02 3.79,-6.82 3.79,-10.71c0,-2.322 -0.471,-4.536 -1.319,-6.555z"></path></g></g>
-</svg>
-        Dove siamo
-      </a>
+        <a href="https://maps.app.goo.gl/tk7LzWXqG5YHveWn7" target="_blank" rel="noopener" class="maps-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+          <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M28.292,1.326c-1.066,-0.21 -2.165,-0.326 -3.292,-0.326c-4.71,0 -8.98,1.93 -12.06,5.04l6.92,5.592zM18.595,13.178l-6.975,-5.628c-2.27,2.88 -3.62,6.52 -3.62,10.45c0,2.281 0.452,4.487 1.304,6.534zM22.608,11.432c0.745,-0.273 1.546,-0.432 2.392,-0.432c3.87,0 7,3.13 7,7c0,0.338 -0.032,0.667 -0.078,0.992l7.772,-9.499c-2.058,-3.539 -5.348,-6.268 -9.285,-7.595zM27.341,24.591c-0.733,0.26 -1.519,0.409 -2.341,0.409c-3.87,0 -7,-3.13 -7,-7c0,-0.354 0.034,-0.7 0.084,-1.039l-7.803,9.537c0.386,0.666 0.809,1.315 1.289,1.932c0.37,0.5 0.87,1.14 1.45,1.89c1.267,1.633 2.959,3.816 4.59,6.164zM18.778,38.215c2.082,3.184 3.852,6.497 4.172,9.055c0.14,0.99 0.99,1.73 1.99,1.73c1.02,0 1.87,-0.75 1.99,-1.75c0.61,-4.83 6.57,-12.48 9.78,-16.6c0.56,-0.72 1.05,-1.35 1.5,-1.94c2.44,-3.02 3.79,-6.82 3.79,-10.71c0,-2.322 -0.471,-4.536 -1.319,-6.555z"></path></g></g>
+          </svg>
+          Dove siamo
+        </a>
 
 
         </div>
