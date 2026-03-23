@@ -2,8 +2,8 @@
 
 <!-- HERO -->
 <section id="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-side-block"></div>
+  <div class="hero-bg-img"></div>
+  <div class="hero-overlay"></div>
   <div class="hero-flag-accent">
     <span class="fa-verde"></span>
     <span class="fa-bianco"></span>
@@ -18,10 +18,7 @@
         rimorchi
       </h1>
       <p class="hero-desc">
-        Conca Rimorchi è il punto di riferimento per <strong>vendita e assistenza di rimorchi</strong>, pensati per rispondere
-        alle esigenze di <strong>professionisti, aziende e privati</strong>.
-        Da anni lavoriamo con un obiettivo preciso: offrire mezzi <strong>sicuri, performanti e conformi alle normative</strong>, affiancando
-        ogni cliente con <strong>competenza e disponibilità</strong>.
+        Conca Rimorchi è il punto di riferimento per <strong>vendita e assistenza di rimorchi</strong>, pensati per rispondere alle esigenze di <strong>professionisti, aziende e privati</strong>. Da anni lavoriamo con un obiettivo preciso: offrire mezzi <strong>sicuri, performanti e conformi alle normative</strong>.
       </p>
       <div class="hero-actions">
         <a href="#prodotti" class="btn-primary">
@@ -29,12 +26,6 @@
           <svg viewBox="0 0 16 16" fill="white" width="14" height="14"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
         </a>
         <a href="#contatti" class="btn-secondary">Richiedi un preventivo</a>
-      </div>
-    </div>
-    <div class="hero-image-area">
-      <div class="hero-placeholder">
-        <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-        <p>foto flotta</p>
       </div>
       <div class="hero-stats">
         <div class="stat-item">
@@ -59,7 +50,7 @@
 </section>
 
 <!-- SERVIZI -->
-<section id="servizi">
+<section id="servizi" class="section-light">
   <div class="section-inner">
     <div class="section-tag">Cosa facciamo</div>
     <h2 class="section-title">I nostri servizi</h2>
@@ -104,9 +95,13 @@
           <span class="img-label">Foto prodotto</span>
         </div>
         <div class="product-info">
+          <div class="product-badge">Centinati</div>
           <div class="product-name">Centinato</div>
           <p class="product-desc">Protezione dagli agenti atmosferici, apertura laterale facilitata. Ideale per utilizzi intensivi.</p>
-          <a href="#contatti" class="product-link">Richiedi info <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></a>
+          <a href="<?php echo home_url('/rimorchi/nuovo'); ?>" class="product-link">
+            Scopri la categoria
+            <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+          </a>
         </div>
       </div>
 
@@ -116,57 +111,13 @@
           <span class="img-label">Foto prodotto</span>
         </div>
         <div class="product-info">
-          <div class="product-name">Centinato alla francese</div>
-          <p class="product-desc">Apertura laterale completa, perfetto per operazioni di carico rapide e accesso facilitato.</p>
-          <a href="#contatti" class="product-link">Richiedi info <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></a>
-        </div>
-      </div>
-
-      <div class="product-card fade-in fade-delay-2">
-        <div class="product-img-placeholder">
-          <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-          <span class="img-label">Foto prodotto</span>
-        </div>
-        <div class="product-info">
+          <div class="product-badge">Pianali</div>
           <div class="product-name">Pianale</div>
           <p class="product-desc">Struttura aperta per carichi voluminosi o speciali. Massima flessibilità per settore industriale e logistico.</p>
-          <a href="#contatti" class="product-link">Richiedi info <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></a>
-        </div>
-      </div>
-
-      <div class="product-card fade-in fade-delay-3">
-        <div class="product-img-placeholder">
-          <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-          <span class="img-label">Foto prodotto</span>
-        </div>
-        <div class="product-info">
-          <div class="product-name">Portacontainer</div>
-          <p class="product-desc">Per il trasporto sicuro di container di diverse dimensioni. Conformi agli standard internazionali per il trasporto intermodale.</p>
-          <a href="#contatti" class="product-link">Richiedi info <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></a>
-        </div>
-      </div>
-
-      <div class="product-card fade-in">
-        <div class="product-img-placeholder">
-          <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-          <span class="img-label">Foto prodotto</span>
-        </div>
-        <div class="product-info">
-          <div class="product-name">Frigorifero</div>
-          <p class="product-desc">Trasporto a temperatura controllata per il settore alimentare e logistico. Temperatura costante, integrità garantita.</p>
-          <a href="#contatti" class="product-link">Richiedi info <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></a>
-        </div>
-      </div>
-
-      <div class="product-card fade-in fade-delay-1">
-        <div class="product-img-placeholder">
-          <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-          <span class="img-label">Foto prodotto</span>
-        </div>
-        <div class="product-info">
-          <div class="product-name">Furgonato VAN</div>
-          <p class="product-desc">Massima protezione del carico. Sicurezza, isolamento e ordine per logistica e distribuzione.</p>
-          <a href="#contatti" class="product-link">Richiedi info <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></a>
+          <a href="<?php echo home_url('/rimorchi/nuovo'); ?>" class="product-link">
+            Scopri la categoria
+            <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+          </a>
         </div>
       </div>
 
@@ -176,30 +127,46 @@
           <span class="img-label">Foto prodotto</span>
         </div>
         <div class="product-info">
-          <div class="product-name">Cassonato</div>
-          <p class="product-desc">Per materiali sfusi o carichi che richiedono una struttura contenitiva. Affidabile per utilizzi intensivi.</p>
-          <a href="#contatti" class="product-link">Richiedi info <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></a>
+          <div class="product-badge">Frigoriferi</div>
+          <div class="product-name">Frigorifero</div>
+          <p class="product-desc">Trasporto a temperatura controllata per il settore alimentare e logistico. Temperatura costante, integrità garantita.</p>
+          <a href="<?php echo home_url('/rimorchi/nuovo'); ?>" class="product-link">
+            Scopri la categoria
+            <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+          </a>
         </div>
       </div>
 
       <div class="product-card fade-in fade-delay-3">
         <div class="product-img-placeholder">
-          <svg viewBox="0 0 24 24"><path d="M19.79 15.41C20.74 13.24 20.74 10.75 19.79 8.59L17.05 9.83C17.68 11.07 17.68 12.93 17.05 14.17L19.79 15.41M15.42 4.21C13.25 3.26 10.76 3.26 8.59 4.21L9.83 6.95C11.07 6.32 12.93 6.32 14.17 6.95L15.42 4.21M4.21 8.58C3.26 10.76 3.26 13.24 4.21 15.42L6.95 14.17C6.32 12.93 6.32 11.07 6.95 9.83L4.21 8.58M8.59 19.79C10.76 20.74 13.25 20.74 15.42 19.79L14.18 17.05C12.94 17.68 11.08 17.68 9.84 17.05L8.59 19.79M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2M12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17Z"/></svg>
-          <span class="img-label">Ricambi</span>
+          <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
+          <span class="img-label">Foto prodotto</span>
         </div>
         <div class="product-info">
-          <div class="product-name">Ricambi</div>
-          <p class="product-desc">Ampia gamma di ricambi originali e compatibili con supporto tecnico dedicato per individuare il pezzo giusto.</p>
-          <a href="#contatti" class="product-link">Richiedi info <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></a>
+          <div class="product-badge">Portacontainer</div>
+          <div class="product-name">Portacontainer</div>
+          <p class="product-desc">Per il trasporto sicuro di container di diverse dimensioni. Conformi agli standard internazionali.</p>
+          <a href="<?php echo home_url('/rimorchi/nuovo'); ?>" class="product-link">
+            Scopri la categoria
+            <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+          </a>
         </div>
       </div>
 
     </div>
+
+    <div class="products-cta">
+      <a href="<?php echo home_url('/rimorchi'); ?>">
+        Vedi tutti i rimorchi
+        <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+      </a>
+    </div>
+
   </div>
 </section>
 
 <!-- AZIENDA -->
-<section id="azienda">
+<section id="azienda" class="section-light">
   <div class="section-inner">
     <div class="azienda-grid">
       <div class="azienda-text">
@@ -216,7 +183,7 @@
           <div class="value-item">
             <div class="value-dot"></div>
             <div class="value-name">Consulenza</div>
-            <p class="value-desc">Personalizzata per ogni esigenza operativa</p>
+            <p class="value-desc">Per guidarti nella scelta più adatta al tuo lavoro </p>
           </div>
           <div class="value-item">
             <div class="value-dot"></div>
