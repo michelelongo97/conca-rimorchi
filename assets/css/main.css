@@ -1099,6 +1099,22 @@ section {
   fill: white;
 }
 
+/* ── CONTATTI HOME ── */
+.contatti-home-grid {
+  max-width: 680px;
+}
+
+.contatti-home-row:hover {
+  color: var(--bianco);
+}
+
+.contatti-home-row svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--verde);
+  flex-shrink: 0;
+}
+
 /* ── FOOTER ── */
 footer {
   background: #0b2469;
@@ -1416,6 +1432,11 @@ footer {
   }
   .form-row {
     grid-template-columns: 1fr;
+  }
+
+  .contatti-home-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
   }
 
   .footer-inner {
