@@ -1370,6 +1370,78 @@ footer {
   }
 }
 
+/* ── PAGE HERO ── */
+.page-hero {
+  background: var(--bianco-off);
+  padding: 120px 5% 80px;
+  border-bottom: 1px solid #d0d8ee;
+}
+
+.page-hero-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.page-hero-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  text-transform: uppercase;
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  margin-bottom: 20px;
+  color: var(--blu);
+}
+
+.page-hero-desc {
+  font-size: 1.05rem;
+  color: var(--grigio);
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+.page-section {
+  padding: 80px 5%;
+  background: var(--bianco-off);
+}
+
+.contatti-form-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 28px;
+  color: var(--blu);
+}
+
+/* Form su sfondo chiaro */
+.page-section .form-label,
+.page-section .info-note {
+  color: var(--grigio);
+}
+
+.page-section .form-input,
+.page-section .form-select,
+.page-section .form-textarea {
+  background: var(--bianco);
+  border-color: #d0d8ee;
+  color: var(--blu);
+}
+
+.page-section .form-input::placeholder,
+.page-section .form-textarea::placeholder {
+  color: #9aa5c0;
+}
+
+.page-section .info-value a {
+  color: var(--blu);
+}
+
+.page-section .info-block {
+  border-bottom-color: #d0d8ee;
+}
+
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
   .products-grid {
@@ -1467,5 +1539,9 @@ footer {
 
   .hero-title {
     font-size: 3rem;
+  }
+
+  .page-hero {
+    padding: 100px 4% 60px;
   }
 }
