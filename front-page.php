@@ -56,27 +56,46 @@
     <h2 class="section-title">I nostri servizi</h2>
     <p class="section-subtitle">Tutto ciò di cui hai bisogno per il tuo trasporto, in un unico punto di riferimento.</p>
     <div class="services-grid">
+
       <div class="service-card fade-in">
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24"><path d="M19 7h-3V6a4 4 0 0 0-8 0v1H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zm-9-1a2 2 0 0 1 4 0v1h-4V6zm10 14H4V9h3v1a1 1 0 0 0 2 0V9h6v1a1 1 0 0 0 2 0V9h3v11z"/></svg>
+        <div class="service-card-img">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/assistenza.jpg" alt="Assistenza e Manutenzione">
         </div>
-        <div class="service-name">Assistenza e Manutenzione</div>
-        <p class="service-desc">Forniamo un servizio di <strong>assistenza tecnica specializzata</strong> pensato per garantire nel tempo l'efficienza, la sicurezza e l'affidabilità dei mezzi. Ogni intervento viene eseguito da <strong>personale qualificato</strong>, con attenzione ai dettagli e nel pieno rispetto delle normative vigenti. Ci occupiamo di <strong>manutenzione ordinaria e straordinaria</strong>, controlli tecnici periodici e riparazioni mirate, intervenendo in modo tempestivo per ridurre <strong>fermi operativi e imprevisti</strong>.</p>
+        <div class="service-card-body">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 7h-3V6a4 4 0 0 0-8 0v1H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zm-9-1a2 2 0 0 1 4 0v1h-4V6zm10 14H4V9h3v1a1 1 0 0 0 2 0V9h6v1a1 1 0 0 0 2 0V9h3v11z"/></svg>
+          </div>
+          <div class="service-name">Assistenza e Manutenzione</div>
+          <p class="service-desc">Forniamo un servizio di <strong>assistenza tecnica specializzata</strong> pensato per garantire nel tempo l'efficienza, la sicurezza e l'affidabilità dei mezzi. Ogni intervento viene eseguito da <strong>personale qualificato</strong>, con attenzione ai dettagli e nel pieno rispetto delle normative vigenti.</p>
+        </div>
       </div>
+
       <div class="service-card fade-in fade-delay-1">
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+        <div class="service-card-img">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/consulenza.jpg" alt="Consulenza Tecnica">
         </div>
-        <div class="service-name">Consulenza Tecnica Personalizzata</div>
-        <p class="service-desc">Ogni cliente ha esigenze diverse, per questo offriamo un servizio di <strong>consulenza tecnica su misura</strong>. Analizziamo attentamente le <strong>necessità operative</strong>, il tipo di utilizzo e il contesto lavorativo per individuare la soluzione più adatta. Grazie alla nostra esperienza, aiutiamo a ottimizzare <strong>prestazioni, costi e funzionalità</strong> del mezzo, guidando il cliente verso una <strong>scelta consapevole e realmente efficace</strong>.</p>
+        <div class="service-card-body">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+          </div>
+          <div class="service-name">Consulenza Tecnica Personalizzata</div>
+          <p class="service-desc">Ogni cliente ha esigenze diverse, per questo offriamo un servizio di <strong>consulenza tecnica su misura</strong>. Analizziamo attentamente le <strong>necessità operative</strong>, il tipo di utilizzo e il contesto lavorativo per individuare la soluzione più adatta.</p>
+        </div>
       </div>
+
       <div class="service-card fade-in fade-delay-2">
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24"><path d="M13.78 15.3L19.78 21.3L21.89 19.14L15.89 13.14L13.78 15.3M17.5 11.5C17.5 12.6 17.06 13.58 16.35 14.28L17.75 15.67C18.82 14.62 19.5 13.14 19.5 11.5C19.5 8.47 17.29 5.96 14.39 5.5C12.57 5.23 10.74 5.88 9.59 7.18L11.01 8.59C11.72 7.79 12.78 7.38 13.88 7.5C15.87 7.73 17.5 9.46 17.5 11.5M13.5 16.5C13.5 15.4 13.94 14.42 14.65 13.72L13.25 12.33C12.18 13.38 11.5 14.86 11.5 16.5H13.5M9.16 15.88C8.12 14.87 7.5 13.47 7.5 12C7.5 10.5 8.09 9.13 9.06 8.12L7.65 6.72C6.32 8.09 5.5 9.95 5.5 12C5.5 14.06 6.33 15.93 7.67 17.3L9.16 15.88M11.5 20H13.5C13.5 19.45 13.29 18.92 12.91 18.53L11.5 20Z"/></svg>
+        <div class="service-card-img">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/supporto.jpg" alt="Supporto Post-Vendita">
         </div>
-        <div class="service-name">Supporto Post-Vendita</div>
-        <p class="service-desc">Per Conca Rimorchi il rapporto con il cliente <strong>non si conclude con la consegna del mezzo</strong>. Garantiamo un <strong>supporto post-vendita costante</strong>, offrendo assistenza, informazioni tecniche e aggiornamenti nel tempo. Siamo a disposizione per rispondere a ogni esigenza, assicurando <strong>continuità, affidabilità e tranquillità operativa</strong>.</p>
+        <div class="service-card-body">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24"><path d="M13.78 15.3L19.78 21.3L21.89 19.14L15.89 13.14L13.78 15.3M17.5 11.5C17.5 12.6 17.06 13.58 16.35 14.28L17.75 15.67C18.82 14.62 19.5 13.14 19.5 11.5C19.5 8.47 17.29 5.96 14.39 5.5C12.57 5.23 10.74 5.88 9.59 7.18L11.01 8.59C11.72 7.79 12.78 7.38 13.88 7.5C15.87 7.73 17.5 9.46 17.5 11.5M13.5 16.5C13.5 15.4 13.94 14.42 14.65 13.72L13.25 12.33C12.18 13.38 11.5 14.86 11.5 16.5H13.5M9.16 15.88C8.12 14.87 7.5 13.47 7.5 12C7.5 10.5 8.09 9.13 9.06 8.12L7.65 6.72C6.32 8.09 5.5 9.95 5.5 12C5.5 14.06 6.33 15.93 7.67 17.3L9.16 15.88M11.5 20H13.5C13.5 19.45 13.29 18.92 12.91 18.53L11.5 20Z"/></svg>
+          </div>
+          <div class="service-name">Supporto Post-Vendita</div>
+          <p class="service-desc">Per Conca Rimorchi il rapporto con il cliente <strong>non si conclude con la consegna del mezzo</strong>. Garantiamo un <strong>supporto post-vendita costante</strong>, offrendo assistenza, informazioni tecniche e aggiornamenti nel tempo.</p>
+        </div>
       </div>
+
     </div>
   </div>
 </section>

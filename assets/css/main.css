@@ -505,9 +505,35 @@ section {
   margin-top: 60px;
 }
 
+.service-icon {
+  width: 44px;
+  height: 44px;
+  background: var(--verde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  flex-shrink: 0;
+}
+
+.service-icon svg {
+  width: 22px;
+  height: 22px;
+  fill: white;
+}
+
+.service-card-body .service-icon {
+  width: 44px;
+  height: 44px;
+}
+
+.service-card-body .service-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
 .service-card {
   background: var(--card-bg);
-  padding: 40px 36px;
   position: relative;
   overflow: hidden;
   transition:
@@ -534,35 +560,35 @@ section {
   width: 100%;
 }
 
-.service-icon {
-  width: 44px;
-  height: 44px;
-  background: var(--verde);
+.service-card-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  background: var(--blu-surface);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 24px;
 }
 
-.service-icon svg {
-  width: 22px;
-  height: 22px;
-  fill: white;
+.service-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
 }
 
-.service-name {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 700;
-  font-size: 1.35rem;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  margin-bottom: 12px;
+.service-card:hover .service-card-img img {
+  transform: scale(1.04);
 }
 
-.service-desc {
-  font-size: 0.9rem;
-  color: var(--testo-sec);
-  line-height: 1.65;
+/* Placeholder quando non c'è immagine */
+.service-card-img:not(:has(img[src])) {
+  background: var(--blu-surface);
+}
+
+.service-card-body {
+  padding: 32px 36px 40px;
 }
 
 /* ── PRODOTTI ── */
@@ -865,23 +891,55 @@ section {
   background: var(--card-bg);
   padding: 36px 30px;
   border: 1px solid var(--bordo);
-  transition: border-color 0.25s;
+  border-top: 3px solid transparent;
+  transition:
+    border-color 0.25s,
+    background 0.25s;
+}
+
+/* Alternanza colori bordo superiore */
+.assistenza-card:nth-child(odd) {
+  border-top-color: var(--verde);
+}
+
+.assistenza-card:nth-child(even) {
+  border-top-color: var(--blu-chiaro);
 }
 
 .assistenza-card:hover {
-  border-color: var(--verde);
+  background: var(--blu-surface);
 }
 
 .assistenza-num {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 800;
-  font-size: 3rem;
-  color: var(--verde);
-  opacity: 0.2;
+  font-size: 3.5rem;
   line-height: 1;
   margin-bottom: 16px;
 }
 
+/* Alternanza colore numero */
+.assistenza-card:nth-child(even) {
+  background: var(--bianco-off);
+  border-color: #d0d8ee;
+  border-top: 3px solid var(--blu-chiaro);
+}
+
+.assistenza-card:nth-child(even):hover {
+  background: var(--bianco);
+}
+
+.assistenza-card:nth-child(even) .assistenza-num {
+  color: var(--blu-chiaro);
+}
+
+.assistenza-card:nth-child(even) .assistenza-name {
+  color: var(--blu);
+}
+
+.assistenza-card:nth-child(even) .assistenza-desc {
+  color: var(--grigio);
+}
 .assistenza-name {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
@@ -898,10 +956,10 @@ section {
 }
 
 .assistenza-resume {
-  font-size: 1rem;
-  color: var(--testo-sec);
+  font-size: 1.1rem;
+  color: var(--blu-surface);
   line-height: 1.65;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 /* ── CONTATTI ── */
