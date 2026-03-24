@@ -19,8 +19,8 @@
   <ul class="nav-links">
     <li><a href="#servizi">Servizi</a></li>
     <li><a href="#prodotti">Rimorchi</a></li>
-    <li><a href="#assistenza">Assistenza</a></li>
     <li><a href="#azienda">Azienda</a></li>
+    <li><a href="#assistenza">Assistenza</a></li>
     <li><a href="<?php echo home_url('/contattaci'); ?>" class="nav-cta">Contattaci</a></li>
   </ul>
   <button class="hamburger" id="hamburger" aria-label="Menu">

@@ -59,7 +59,7 @@
 
       <div class="service-card fade-in">
         <div class="service-card-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/assistenza.jpg" alt="Assistenza e Manutenzione">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/assistenza.png" alt="Assistenza e Manutenzione">
         </div>
         <div class="service-card-body">
           <div class="service-icon">
@@ -72,7 +72,7 @@
 
       <div class="service-card fade-in fade-delay-1">
         <div class="service-card-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/consulenza.jpg" alt="Consulenza Tecnica">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/consulenza.png" alt="Consulenza Tecnica">
         </div>
         <div class="service-card-body">
           <div class="service-icon">
@@ -85,7 +85,7 @@
 
       <div class="service-card fade-in fade-delay-2">
         <div class="service-card-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/supporto.jpg" alt="Supporto Post-Vendita">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/supporto.png" alt="Supporto Post-Vendita">
         </div>
         <div class="service-card-body">
           <div class="service-icon">
