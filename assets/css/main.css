@@ -1542,6 +1542,169 @@ footer {
   opacity: 0.85;
 }
 
+/* ── PAGE AZIENDA ── */
+.azienda-page-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.azienda-page-grid--reverse {
+  direction: rtl;
+}
+
+.azienda-page-grid--reverse > * {
+  direction: ltr;
+}
+
+.azienda-page-text p {
+  font-size: 0.97rem;
+  color: var(--testo-sec);
+  line-height: 1.75;
+  margin-bottom: 18px;
+}
+
+.azienda-page-text p strong {
+  color: var(--bianco);
+}
+
+.azienda-page-img .azienda-main-img {
+  aspect-ratio: 4/3;
+}
+
+.azienda-page-img .azienda-main-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Numeri */
+.azienda-numeri-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+}
+
+.azienda-numero {
+  background: var(--bianco);
+  border: 1px solid #d0d8ee;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.azienda-numero-val {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color: var(--verde);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.azienda-numero-label {
+  font-size: 0.85rem;
+  color: var(--grigio);
+  line-height: 1.5;
+}
+
+/* Valori grandi */
+.azienda-valori-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  margin-top: 20px;
+}
+
+.value-item-large {
+  background: var(--blu-surface);
+  padding: 32px 28px;
+  border: 1px solid var(--bordo);
+  border-top: 3px solid var(--verde);
+  transition: background 0.25s;
+}
+
+.value-item-large:hover {
+  background: var(--blu-medio);
+}
+
+.value-item-large:nth-child(even) {
+  background: var(--bianco-off);
+  border-color: #d0d8ee;
+  border-top: 3px solid var(--blu-chiaro);
+}
+
+.value-item-large:nth-child(even):hover {
+  background: var(--bianco);
+}
+
+.value-item-large:nth-child(even) .value-name-large {
+  color: var(--blu);
+}
+
+.value-item-large:nth-child(even) .value-desc-large {
+  color: var(--grigio);
+}
+
+.value-item-large:nth-child(odd) .value-name-large {
+  color: var(--bianco);
+}
+
+.value-item-large:nth-child(odd) .value-desc-large {
+  color: var(--testo-sec);
+}
+
+.value-name-large {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  color: var(--bianco);
+}
+
+.value-desc-large {
+  font-size: 0.88rem;
+  color: var(--testo-sec);
+  line-height: 1.65;
+}
+
+.section-light .azienda-page-text p {
+  color: var(--grigio);
+}
+
+.section-light .azienda-page-text p strong {
+  color: var(--blu);
+}
+
+/* Responsive azienda */
+@media (max-width: 1024px) {
+  .azienda-numeri-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .azienda-valori-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .azienda-page-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .azienda-page-grid--reverse {
+    direction: ltr;
+  }
+  .azienda-numeri-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .azienda-valori-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
   .products-grid {
