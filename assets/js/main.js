@@ -40,3 +40,24 @@ function handleSubmit(e) {
     }, 5000);
   }, 1200);
 }
+
+// ── HERO SLIDESHOW ──
+const slides = document.querySelectorAll(".hero-slide");
+if (slides.length) {
+  let current = 0;
+  setInterval(() => {
+    slides[current].classList.remove("active");
+    current = (current + 1) % slides.length;
+    slides[current].classList.add("active");
+  }, 5000);
+}
+
+// ── SCROLL INDICATOR ──
+document
+  .querySelectorAll(".scroll-indicator, .scroll-indicator *")
+  .forEach((el) => {
+    el.style.cursor = "pointer";
+    el.addEventListener("click", () => {
+      document.querySelector("#servizi").scrollIntoView({ behavior: "smooth" });
+    });
+  });

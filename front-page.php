@@ -2,7 +2,11 @@
 
 <!-- HERO -->
 <section id="hero">
-  <div class="hero-bg-img"></div>
+  <div class="hero-slideshow">
+  <div class="hero-slide active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-1.png')"></div>
+  <div class="hero-slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-2.png')"></div>
+  <div class="hero-slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-3.png')"></div>
+</div>
   <div class="hero-overlay"></div>
   <div class="hero-flag-accent">
     <span class="fa-verde"></span>
