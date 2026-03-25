@@ -24,7 +24,7 @@
   </div>
 
   <!-- GRIGLIA -->
-  <section class="page-section" style="background: var(--nero); border-top: 1px solid var(--bordo);">
+  <section class="page-section" style="border-top: 1px solid var(--bordo);">
     <div class="section-inner">
       <?php
       $args = [
@@ -52,7 +52,7 @@
       <?php if ($rimorchi->have_posts()) : ?>
         <div class="rimorchi-grid">
           <?php while ($rimorchi->have_posts()) : $rimorchi->the_post();
-            $foto       = get_field('foto');
+            $foto       = get_field('galleria_foto');
             $categoria  = get_field('categoria');
             $stato      = get_field('stato');
             $marca      = get_field('marca');

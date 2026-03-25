@@ -2043,6 +2043,320 @@ footer {
   font-size: 0.8rem;
 }
 
+/* ── SINGLE RIMORCHIO ── */
+.rimorchio-breadcrumb {
+  background: var(--blu-scuro);
+  padding: 14px 5%;
+  border-bottom: 1px solid var(--bordo);
+  font-size: 0.78rem;
+  color: var(--testo-sec);
+}
+
+.rimorchio-breadcrumb a {
+  color: var(--testo-sec);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.rimorchio-breadcrumb a:hover {
+  color: var(--bianco);
+}
+
+.rimorchio-breadcrumb span {
+  margin: 0 8px;
+}
+
+.rimorchio-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 40px;
+  align-items: start;
+}
+
+/* Titolo */
+.rimorchio-title-block {
+  margin-bottom: 24px;
+}
+
+.rimorchio-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.rimorchio-badge-inline {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 4px 10px;
+  color: white;
+}
+
+.rimorchio-badge-inline.nuovo {
+  background: var(--verde);
+}
+.rimorchio-badge-inline.usato {
+  background: var(--blu-chiaro);
+}
+.rimorchio-badge-inline.riservato {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.rimorchio-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 8px;
+  color: var(--nero);
+}
+
+.rimorchio-codice {
+  font-size: 0.78rem;
+  color: var(--testo-sec);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Foto */
+.rimorchio-foto-principale {
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  background: var(--blu-surface);
+  margin-bottom: 40px;
+  border: 1px solid var(--bordo);
+}
+
+.rimorchio-foto-principale img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.rimorchio-no-foto {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--testo-sec);
+  font-size: 0.85rem;
+}
+
+.rimorchio-no-foto svg {
+  width: 48px;
+  height: 48px;
+  fill: var(--blu-chiaro);
+  opacity: 0.4;
+}
+
+/* Scheda */
+.rimorchio-scheda {
+  background: var(--card-bg);
+  border: 1px solid var(--bordo);
+  padding: 32px;
+}
+
+.rimorchio-scheda-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--bordo);
+  color: var(--bianco);
+}
+
+.rimorchio-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+.rimorchio-table tr {
+  border-bottom: 1px solid var(--bordo);
+}
+
+.rimorchio-table tr:last-child {
+  border-bottom: none;
+}
+
+.rimorchio-table-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--testo-sec);
+  padding: 12px 16px 12px 0;
+  width: 40%;
+  vertical-align: top;
+}
+
+.rimorchio-table-value {
+  font-size: 0.92rem;
+  color: var(--bianco);
+  padding: 12px 0;
+  vertical-align: top;
+}
+
+.rimorchio-detail-block {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--bordo);
+}
+
+.rimorchio-detail-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--testo-sec);
+  margin-bottom: 8px;
+}
+
+.rimorchio-detail-text {
+  font-size: 0.92rem;
+  color: var(--bianco);
+  line-height: 1.65;
+}
+
+.rimorchio-note {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 16px;
+  border: 1px solid var(--bordo);
+  margin-top: 24px;
+}
+
+/* Sidebar */
+.rimorchio-sidebar-inner {
+  position: sticky;
+  top: 88px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rimorchio-prezzo-box {
+  background: var(--card-bg);
+  border: 1px solid var(--bordo);
+  border-top: 3px solid var(--verde);
+  padding: 24px;
+}
+
+.rimorchio-prezzo-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--testo-sec);
+  margin-bottom: 8px;
+}
+
+.rimorchio-prezzo {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-size: 2.2rem;
+  color: var(--verde);
+  line-height: 1;
+}
+
+.rimorchio-prezzo-su-richiesta {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--testo-sec);
+}
+
+.rimorchio-venduto,
+.rimorchio-riservato {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.rimorchio-venduto {
+  color: var(--rosso);
+}
+.rimorchio-riservato {
+  color: var(--testo-sec);
+}
+
+.rimorchio-info-rapide {
+  background: var(--card-bg);
+  border: 1px solid var(--bordo);
+  padding: 20px;
+}
+
+.rimorchio-info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--bordo);
+  gap: 12px;
+}
+
+.rimorchio-info-row:last-child {
+  border-bottom: none;
+}
+
+.rimorchio-info-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--testo-sec);
+  flex-shrink: 0;
+}
+
+.rimorchio-info-value {
+  font-size: 0.88rem;
+  color: var(--bianco);
+  text-align: right;
+}
+
+.rimorchio-back {
+  font-size: 0.78rem;
+  color: var(--testo-sec);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: color 0.2s;
+  text-align: center;
+}
+
+.rimorchio-back:hover {
+  color: var(--bianco);
+}
+
+/* Responsive single */
+@media (max-width: 1024px) {
+  .rimorchio-layout {
+    grid-template-columns: 1fr 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rimorchio-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .rimorchio-sidebar-inner {
+    position: static;
+  }
+}
+
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
   .products-grid {
