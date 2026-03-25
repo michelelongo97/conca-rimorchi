@@ -11,17 +11,80 @@
     </div>
   </section>
 
-  <!-- FILTRI CATEGORIA -->
-  <div class="rimorchi-filtri">
-    <div class="section-inner">
-      <div class="filtri-inner">
-        <a href="<?php echo get_post_type_archive_link('rimorchi'); ?>" class="filtro-btn">Tutti i rimorchi</a>
-        <span class="filtri-sep">|</span>
-        <a href="<?php echo home_url('/rimorchi-nuovi'); ?>" class="filtro-btn active">Nuovi</a>
-        <a href="<?php echo home_url('/rimorchi-usati'); ?>" class="filtro-btn">Usati</a>
-      </div>
+<!-- FILTRI CATEGORIE -->
+<div class="rimorchi-filtri">
+  <div class="section-inner">
+
+    <!-- FILTRO CONDIZIONE -->
+    <div class="filtri-inner" style="margin-bottom: 32px;">
+      <a href="<?php echo get_post_type_archive_link('rimorchi'); ?>" class="filtro-btn">Tutti i rimorchi</a>
+      <span class="filtri-sep">|</span>
+      <a href="<?php echo home_url('/rimorchi-nuovi'); ?>" class="filtro-btn <?php echo is_page('rimorchi-nuovi') ? 'active' : ''; ?>">Nuovi</a>
+      <a href="<?php echo home_url('/rimorchi-usati'); ?>" class="filtro-btn <?php echo is_page('rimorchi-usati') ? 'active' : ''; ?>">Usati</a>
     </div>
+
+    <!-- FILTRO CATEGORIE -->
+    <?php
+    // Conta rimorchi per categoria
+    $condizione_filter = '';
+    if (is_page('rimorchi-nuovi')) $condizione_filter = 'nuovo';
+    if (is_page('rimorchi-usati')) $condizione_filter = 'usato';
+
+    $categorie = [
+      'centinato'          => ['label' => 'Centinato',          'icon' => 'centinato'],
+      'centinato_francese' => ['label' => 'Francese',           'icon' => 'francese'],
+      'pianale'            => ['label' => 'Pianale',            'icon' => 'pianale'],
+      'portacontainer'     => ['label' => 'Portacontainer',     'icon' => 'portacontainer'],
+      'frigorifero'        => ['label' => 'Frigorifero',        'icon' => 'frigorifero'],
+      'furgonato'          => ['label' => 'Furgonato',          'icon' => 'furgonato'],
+      'cassonato'          => ['label' => 'Cassonato',          'icon' => 'cassonato'],
+      'altro'              => ['label' => 'Altro',              'icon' => 'altro'],
+    ];
+
+    $categoria_attiva = isset($_GET['categoria']) ? sanitize_text_field($_GET['categoria']) : '';
+    $current_url = strtok($_SERVER['REQUEST_URI'], '?');
+    ?>
+
+    <div class="categorie-filtri-grid">
+      <?php foreach ($categorie as $slug => $cat) :
+        // Conta rimorchi in questa categoria
+        $count_args = [
+          'post_type'      => 'rimorchi',
+          'posts_per_page' => -1,
+          'fields'         => 'ids',
+          'meta_query'     => [
+            'relation' => 'AND',
+            ['key' => 'categoria', 'value' => $slug],
+            ['key' => 'stato', 'value' => 'venduto', 'compare' => '!='],
+          ],
+        ];
+        if ($condizione_filter) {
+          $count_args['meta_query'][] = ['key' => 'condizione', 'value' => $condizione_filter];
+        }
+        $count = count(get_posts($count_args));
+        $is_active = $categoria_attiva === $slug;
+      ?>
+      <a href="<?php echo esc_url($current_url . '?categoria=' . $slug); ?>" 
+         class="categoria-filtro-item <?php echo $is_active ? 'active' : ''; ?> <?php echo $count === 0 ? 'empty' : ''; ?>">
+        <div class="categoria-filtro-icon">
+          <?php echo conca_get_category_svg($slug); ?>
+        </div>
+        <div class="categoria-filtro-label"><?php echo esc_html($cat['label']); ?></div>
+        <div class="categoria-filtro-count">(<?php echo $count; ?>)</div>
+      </a>
+      <?php endforeach; ?>
+    </div>
+
+    <?php if ($categoria_attiva) : ?>
+      <div style="margin-top: 16px;">
+        <a href="<?php echo esc_url($current_url); ?>" class="filtro-btn active" style="font-size: 0.75rem;">
+          ✕ Rimuovi filtro categoria
+        </a>
+      </div>
+    <?php endif; ?>
+
   </div>
+</div>
 
   <!-- GRIGLIA -->
   <section class="page-section" style="border-top: 1px solid var(--bordo);">
@@ -45,6 +108,13 @@
           ],
         ],
       ];
+
+      $categoria_filter = isset($_GET['categoria']) ? sanitize_text_field($_GET['categoria']) : '';
+
+// aggiungi dentro meta_query
+if ($categoria_filter) {
+  $args['meta_query'][] = ['key' => 'categoria', 'value' => $categoria_filter];
+}
 
       $rimorchi = new WP_Query($args);
       ?>
