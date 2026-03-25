@@ -65,6 +65,9 @@
   <div class="footer-bottom">
     <p>© <?php echo date('Y'); ?> Conca Rimorchi · P.IVA 05233440725 · Tutti i diritti riservati</p>
   </div>
+  <button class="back-to-top" id="backToTop" aria-label="Torna su">
+  <svg viewBox="0 0 24 24" fill="white" width="20" height="20"><path d="M7 14l5-5 5 5z"/></svg>
+</button>
 
 </footer>
 
