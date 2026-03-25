@@ -1679,30 +1679,23 @@ footer {
   color: var(--blu);
 }
 
-/* Responsive azienda */
-@media (max-width: 1024px) {
-  .azienda-numeri-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .azienda-valori-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+/* ── PAGE ASSISTENZA ── */
+.assistenza-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
 }
 
-@media (max-width: 768px) {
-  .azienda-page-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .azienda-page-grid--reverse {
-    direction: ltr;
-  }
-  .azienda-numeri-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .azienda-valori-grid {
-    grid-template-columns: 1fr;
-  }
+.assistenza-intro-img .azienda-main-img {
+  aspect-ratio: 4/3;
+}
+
+.assistenza-intro-img .azienda-main-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 /* ── RESPONSIVE ── */
@@ -1714,6 +1707,12 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
   .assistenza-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .azienda-numeri-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .azienda-valori-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -1806,5 +1805,23 @@ footer {
 
   .page-hero {
     padding: 100px 4% 60px;
+  }
+
+  .azienda-page-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .azienda-page-grid--reverse {
+    direction: ltr;
+  }
+  .azienda-numeri-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .azienda-valori-grid {
+    grid-template-columns: 1fr;
+  }
+  .assistenza-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
   }
 }
