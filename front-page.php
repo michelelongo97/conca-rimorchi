@@ -112,69 +112,65 @@
     <p class="section-subtitle" style="margin-bottom: 48px;">Semirimorchi <strong>nuovi e usati</strong> per ogni esigenza del <strong>trasporto professionale</strong>.</p>
     <div class="products-grid">
 
-      <div class="product-card fade-in">
-        <div class="product-img-placeholder">
-          <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-          <span class="img-label">Foto prodotto</span>
-        </div>
-        <div class="product-info">
-          <div class="product-badge">Centinati</div>
-          <div class="product-name">Centinato</div>
-          <p class="product-desc">Protezione dagli agenti atmosferici, apertura laterale facilitata. Ideale per utilizzi intensivi.</p>
-          <a href="<?php echo home_url('/rimorchi/nuovo'); ?>" class="product-link">
-            Scopri la categoria
-            <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-          </a>
-        </div>
-      </div>
+    <a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=centinato" class="product-card fade-in">
+  <div class="product-img-svg">
+    <?php echo conca_get_category_svg('centinato'); ?>
+  </div>
+  <div class="product-info">
+    <div class="product-badge">Centinati</div>
+    <div class="product-name">Centinato</div>
+    <p class="product-desc">Protezione dagli agenti atmosferici, apertura laterale facilitata. Ideale per utilizzi intensivi.</p>
+    <span class="product-link">
+      Scopri la categoria
+      <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+    </span>
+  </div>
+</a>
 
-      <div class="product-card fade-in fade-delay-1">
-        <div class="product-img-placeholder">
-          <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-          <span class="img-label">Foto prodotto</span>
-        </div>
-        <div class="product-info">
-          <div class="product-badge">Pianali</div>
-          <div class="product-name">Pianale</div>
-          <p class="product-desc">Struttura aperta per carichi voluminosi o speciali. Massima flessibilità per settore industriale e logistico.</p>
-          <a href="<?php echo home_url('/rimorchi/nuovo'); ?>" class="product-link">
-            Scopri la categoria
-            <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-          </a>
-        </div>
-      </div>
+<a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=pianale" class="product-card fade-in fade-delay-1">
+  <div class="product-img-svg">
+    <?php echo conca_get_category_svg('pianale'); ?>
+  </div>
+  <div class="product-info">
+    <div class="product-badge">Pianali</div>
+    <div class="product-name">Pianale</div>
+    <p class="product-desc">Struttura aperta per carichi voluminosi o speciali. Massima flessibilità per settore industriale e logistico.</p>
+    <span class="product-link">
+      Scopri la categoria
+      <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+    </span>
+  </div>
+</a>
 
-      <div class="product-card fade-in fade-delay-2">
-        <div class="product-img-placeholder">
-          <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-          <span class="img-label">Foto prodotto</span>
-        </div>
-        <div class="product-info">
-          <div class="product-badge">Frigoriferi</div>
-          <div class="product-name">Frigorifero</div>
-          <p class="product-desc">Trasporto a temperatura controllata per il settore alimentare e logistico. Temperatura costante, integrità garantita.</p>
-          <a href="<?php echo home_url('/rimorchi/nuovo'); ?>" class="product-link">
-            Scopri la categoria
-            <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-          </a>
-        </div>
-      </div>
+<a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=frigorifero" class="product-card fade-in fade-delay-2">
+  <div class="product-img-svg">
+    <?php echo conca_get_category_svg('frigorifero'); ?>
+  </div>
+  <div class="product-info">
+    <div class="product-badge">Frigoriferi</div>
+    <div class="product-name">Frigorifero</div>
+    <p class="product-desc">Trasporto a temperatura controllata per il settore alimentare e logistico. Temperatura costante, integrità garantita.</p>
+    <span class="product-link">
+      Scopri la categoria
+      <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+    </span>
+  </div>
+</a>
 
-      <div class="product-card fade-in fade-delay-3">
-        <div class="product-img-placeholder">
-          <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-          <span class="img-label">Foto prodotto</span>
-        </div>
-        <div class="product-info">
-          <div class="product-badge">Portacontainer</div>
-          <div class="product-name">Portacontainer</div>
-          <p class="product-desc">Per il trasporto sicuro di container di diverse dimensioni. Conformi agli standard internazionali.</p>
-          <a href="<?php echo home_url('/rimorchi/nuovo'); ?>" class="product-link">
-            Scopri la categoria
-            <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-          </a>
-        </div>
-      </div>
+<a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=portacontainer" class="product-card fade-in fade-delay-3">
+  <div class="product-img-svg">
+    <?php echo conca_get_category_svg('portacontainer'); ?>
+  </div>
+  <div class="product-info">
+    <div class="product-badge">Portacontainer</div>
+    <div class="product-name">Portacontainer</div>
+    <p class="product-desc">Per il trasporto sicuro di container di diverse dimensioni. Conformi agli standard internazionali.</p>
+    <span class="product-link">
+      Scopri la categoria
+      <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+    </span>
+  </div>
+</a>
 
     </div>
 
@@ -192,11 +188,15 @@
 <section id="azienda" class="section-light">
   <div class="section-inner">
     <div class="azienda-grid">
+
       <div class="azienda-text">
         <div class="section-tag">La nostra storia</div>
         <h2 class="section-title">Un'azienda<br>fatta di passione</h2>
         <div class="accent-divider"></div>
         <p>Conca Rimorchi nasce dalla <strong>passione autentica per il mondo del trasporto</strong> e dalla volontà di offrire soluzioni <strong>solide, funzionali e pensate per durare nel tempo</strong>. Un percorso costruito giorno dopo giorno, fondato su <strong>serietà, competenza tecnica e attenzione ai dettagli</strong>, valori che ci hanno permesso di instaurare <strong>rapporti di fiducia duraturi</strong> con clienti e partner. Ogni rimorchio, ogni servizio e ogni intervento è pensato per garantire <strong>sicurezza, efficienza e tranquillità operativa</strong>.</p>
+      </div>
+
+      <div class="azienda-image-col">
         <div class="azienda-values">
           <div class="value-item">
             <div class="value-dot"></div>
@@ -206,7 +206,7 @@
           <div class="value-item">
             <div class="value-dot"></div>
             <div class="value-name">Consulenza</div>
-            <p class="value-desc">Per guidarti nella scelta più adatta al tuo lavoro </p>
+            <p class="value-desc">Per guidarti nella scelta più adatta al tuo lavoro</p>
           </div>
           <div class="value-item">
             <div class="value-dot"></div>
@@ -220,22 +220,11 @@
           </div>
         </div>
       </div>
-      <div class="azienda-image-col">
-        <div class="azienda-main-img">
-          <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-          <div class="founder-label">
-            <div class="founder-name">Leonardo Conca</div>
-            <div class="founder-role">Fondatore · Nel settore dal 1998</div>
-          </div>
-        </div>
-        <div class="founded-badge">
-          <div class="founded-year">2010</div>
-          <div class="founded-text">Anno di<br>fondazione</div>
-        </div>
-      </div>
+
     </div>
   </div>
 </section>
+
 
 <!-- ASSISTENZA -->
 <section id="assistenza">
@@ -275,7 +264,7 @@
         <p class="assistenza-resume">Per noi l’assistenza non è un servizio accessorio, ma una parte integrante del nostro lavoro, fondamentale per garantire
           continuità operativa e tranquillità a chi ci sceglie.
         </p>
-    </div>
+      </div>
   </div>
 </section>
 

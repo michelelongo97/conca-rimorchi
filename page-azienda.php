@@ -17,58 +17,55 @@
     </div>
   </section>
 
-  <!-- STORIA -->
-  <section class="page-section section-light" style="border-top: 1px solid #d0d8ee;">
-    <div class="section-inner">
-      <div class="azienda-page-grid">
-        <div class="azienda-page-text">
-          <div class="section-tag">Le nostre radici</div>
-          <h2 class="section-title">Una storia fatta<br>di esperienza</h2>
-          <div class="accent-divider"></div>
-          <p>Conca Rimorchi nasce ufficialmente nel <strong>2010</strong> dall'esperienza di <strong>Leonardo Conca</strong>, agente di commercio nel settore dei veicoli industriali sin dal 1998.</p>
-          <p>Ma la sua passione per i mezzi affonda le radici molto più lontano nel tempo: cresce sin da bambino a stretto contatto con questo mondo, seguendo il padre autotrasportatore durante le estati, respirando <strong>strada, lavoro e sacrificio</strong>.</p>
-          <p>È proprio in quei momenti che la curiosità di un bambino si trasforma in una vocazione, fino a diventare una <strong>scelta di vita e di lavoro</strong>.</p>
-          <p>La prima sede operativa viene istituita nel cuore del settore dei mezzi industriali, <strong>tra Andria e Corato</strong>, un'area strategica che nel tempo ha ospitato anche la seconda e attuale sede, punto di riferimento definitivo per l'attività.</p>
-          <p>Oggi Conca Rimorchi continua a crescere mantenendo salde le proprie origini, con uno sguardo sempre rivolto al futuro, ma con la <strong>stessa passione di allora</strong>.</p>
-        </div>
-        <div class="azienda-page-img">
-          <div class="azienda-main-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/azienda/sede.jpg" alt="Sede Conca Rimorchi">
-            <div class="founder-label">
-              <div class="founder-name">Conca Rimorchi</div>
-              <div class="founder-role">Andria – Trani (BT) · Dal 2010</div>
-            </div>
-          </div>
+<!-- STORIA -->
+<section class="page-section section-light" style="border-top: 1px solid #d0d8ee;">
+  <div class="section-inner">
+    <div class="azienda-page-grid">
+
+      <!-- SINISTRA: solo testo -->
+      <div class="azienda-page-text">
+        <p>Conca Rimorchi nasce ufficialmente nel <strong>2010</strong> dall'esperienza di <strong>Leonardo Conca</strong>, agente di commercio nel settore dei veicoli industriali sin dal 1998.</p>
+        <p>Ma la sua passione per i mezzi affonda le radici molto più lontano nel tempo: cresce sin da bambino a stretto contatto con questo mondo, seguendo il padre autotrasportatore durante le estati, respirando <strong>strada, lavoro e sacrificio</strong>.</p>
+        <p>È proprio in quei momenti che la curiosità di un bambino si trasforma in una vocazione, fino a diventare una <strong>scelta di vita e di lavoro</strong>.</p>
+        <p>La prima sede operativa viene istituita nel cuore del settore dei mezzi industriali, <strong>tra Andria e Corato</strong>, un'area strategica che nel tempo ha ospitato anche la seconda e attuale sede, punto di riferimento definitivo per l'attività.</p>
+        <p>Oggi Conca Rimorchi continua a crescere mantenendo salde le proprie origini, con uno sguardo sempre rivolto al futuro, ma con la <strong>stessa passione di allora</strong>.</p>
+      </div>
+
+      <!-- DESTRA: titolo + logo -->
+      <div class="azienda-page-img">
+        <div class="section-tag">Le nostre radici</div>
+        <h2 class="section-title">Una storia fatta<br>di esperienza</h2>
+        <div class="accent-divider"></div>
+        <div class="azienda-logo-box">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Conca Rimorchi">
         </div>
       </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- FONDATORE -->
   <section class="page-section" style="background: var(--blu-scuro); border-top: 1px solid var(--bordo);">
     <div class="section-inner">
       <div class="azienda-page-grid azienda-page-grid--reverse">
-        <div class="azienda-page-img">
-          <div class="azienda-main-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/azienda/leonardo.jpg" alt="Leonardo Conca">
-            <div class="founder-label">
-              <div class="founder-name">Leonardo Conca</div>
-              <div class="founder-role">Fondatore · Nel settore dal 1998</div>
-            </div>
-          </div>
-          <div class="founded-badge">
-            <div class="founded-year">1998</div>
-            <div class="founded-text">Nel settore<br>dal</div>
-          </div>
-        </div>
         <div class="azienda-page-text">
-          <div class="section-tag">Il fondatore</div>
-          <h2 class="section-title">Leonardo<br>Conca</h2>
-          <div class="accent-divider"></div>
+          
           <p>Leonardo Conca inizia la sua carriera nel <strong>1998</strong> come agente di commercio nel settore dei veicoli industriali, accumulando oltre un decennio di esperienza sul campo prima di fondare la propria azienda.</p>
           <p>La sua formazione è però ancora più antica, cresce respirando il mondo dei trasporti grazie al padre autotrasportatore, sviluppando fin da giovane una <strong>conoscenza concreta e autentica del settore</strong>.</p>
           <p>Nel <strong>2010</strong> decide di mettere a frutto tutta questa esperienza fondando Conca Rimorchi, con l'obiettivo di offrire ai clienti non solo un prodotto, ma un <strong>partner affidabile per il lavoro quotidiano</strong>.</p>
           <p>La sua filosofia è semplice: <strong>ascoltare le reali esigenze del cliente</strong> e trovare la soluzione più adatta, con serietà e trasparenza in ogni intervento.</p>
+        </div>
+        <div class="azienda-page-text">
+          <div class="section-tag">Il fondatore</div>
+          <h2 class="section-title">Leonardo<br>Conca</h2>
+           <div class="accent-divider"></div>
+
+          <div class="founded-badge">
+            <div class="founded-year">1998</div>
+            <div class="founded-text">Nel settore<br>dal</div>
+          </div>
+         
         </div>
       </div>
     </div>

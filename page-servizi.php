@@ -53,6 +53,15 @@
   <section class="page-section" style="background: var(--nero); border-top: 1px solid var(--bordo);">
     <div class="section-inner">
       <div class="servizio-grid servizio-grid--reverse">
+        <div class="servizio-img">
+          <div class="azienda-main-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/consulenza.png" alt="Consulenza Tecnica">
+            <div class="founder-label">
+              <div class="founder-name">Consulenza Tecnica</div>
+              <div class="founder-role">Su misura per ogni esigenza</div>
+            </div>
+          </div>
+        </div>
         <div class="servizio-text">
           <div class="service-icon">
             <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
@@ -68,15 +77,7 @@
             <svg viewBox="0 0 16 16" fill="white" width="14" height="14"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
           </a>
         </div>
-        <div class="servizio-img">
-          <div class="azienda-main-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servizi/consulenza.png" alt="Consulenza Tecnica">
-            <div class="founder-label">
-              <div class="founder-name">Consulenza Tecnica</div>
-              <div class="founder-role">Su misura per ogni esigenza</div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>
