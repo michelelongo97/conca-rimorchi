@@ -1143,6 +1143,40 @@ section {
   opacity: 0.88;
 }
 
+.form-oppure {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+  color: var(--testo-sec);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-top: 26px;
+}
+
+.form-oppure::before,
+.form-oppure::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--bordo);
+}
+
+.whatsapp-btn--form {
+  width: 100%;
+  justify-content: center;
+  padding: 15px 24px;
+  font-size: 0.88rem;
+  margin-top: 0;
+}
+
+/* Adatta colore bordo su sfondo chiaro */
+.page-section .form-oppure::before,
+.page-section .form-oppure::after {
+  background: #d0d8ee;
+}
+
 .contatti-info {
   padding-top: 12px;
 }
