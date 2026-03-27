@@ -30,16 +30,15 @@
     if (is_page('rimorchi-nuovi')) $condizione_filter = 'nuovo';
     if (is_page('rimorchi-usati')) $condizione_filter = 'usato';
 
-    $categorie = [
-      'centinato'          => ['label' => 'Centinato',          'icon' => 'centinato'],
-      'centinato_francese' => ['label' => 'Francese',           'icon' => 'francese'],
-      'pianale'            => ['label' => 'Pianale',            'icon' => 'pianale'],
-      'portacontainer'     => ['label' => 'Portacontainer',     'icon' => 'portacontainer'],
-      'frigorifero'        => ['label' => 'Frigorifero',        'icon' => 'frigorifero'],
-      'furgonato'          => ['label' => 'Furgonato',          'icon' => 'furgonato'],
-      'cassonato'          => ['label' => 'Cassonato',          'icon' => 'cassonato'],
-      'altro'              => ['label' => 'Altro',              'icon' => 'altro'],
-    ];
+$categorie = [
+  'centinati'      => ['label' => 'Centinati'],
+  'pianale'        => ['label' => 'Pianalati'],
+  'portacontainer' => ['label' => 'Portacontainer'],
+  'furgonati'      => ['label' => 'Furgonati / VAN'],
+  'allestimento'   => ['label' => 'Telai per Allestimento'],
+  'ribaltabili'    => ['label' => 'Ribaltabili'],
+  'piani_mobili'   => ['label' => 'Piani Mobili'],
+];
 
     $categoria_attiva = isset($_GET['categoria']) ? sanitize_text_field($_GET['categoria']) : '';
     $current_url = strtok($_SERVER['REQUEST_URI'], '?');
@@ -154,7 +153,7 @@ if ($categoria_filter) {
             </div>
             <div class="rimorchio-card-body">
               <?php if ($categoria) : ?>
-                <div class="product-badge"><?php echo esc_html($categoria); ?></div>
+                <div class="product-badge"><?php echo esc_html(conca_get_categoria_label($categoria)); ?></div>
               <?php endif; ?>
               <h2 class="rimorchio-card-title"><?php the_title(); ?></h2>
               <?php if ($marca) : ?>

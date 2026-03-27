@@ -738,16 +738,12 @@ section {
 
 .product-img-svg {
   aspect-ratio: 16/9;
-  background: var(--blu-surface);
+  background: var(--bianco);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background 0.25s;
   padding: 24px;
-}
-
-.product-card:hover .product-img-svg {
-  background: var(--blu-medio);
 }
 
 .product-img-svg svg {
@@ -756,6 +752,13 @@ section {
   height: auto;
   color: var(--testo-sec);
   transition: color 0.25s;
+}
+
+.product-img-svg img {
+  width: auto;
+  height: 170px;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .product-card:hover .product-img-svg svg {
@@ -2421,40 +2424,28 @@ footer {
   align-items: center;
   gap: 8px;
   padding: 16px 8px;
-  background: var(--card-bg);
-  border: 1px solid var(--bordo);
+  background: var(--bianco);
+  border: 1px solid #d0d8ee;
   text-decoration: none;
-  color: var(--testo-sec);
+  color: var(--blu);
   transition:
     border-color 0.2s,
     color 0.2s,
-    background 0.2s;
+    box-shadow 0.2s;
   cursor: pointer;
 }
 
 .categoria-filtro-item:hover,
 .categoria-filtro-item.active {
   border-color: var(--verde);
-  color: var(--bianco);
-  background: rgba(0, 102, 43, 0.08);
+  color: var(--blu);
+  background: var(--bianco);
+  box-shadow: 0 2px 12px rgba(0, 102, 43, 0.15);
 }
 
 .categoria-filtro-item.empty {
   opacity: 0.4;
   pointer-events: none;
-}
-
-.categoria-filtro-icon {
-  width: 80px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.categoria-filtro-icon svg {
-  width: 100%;
-  height: 100%;
 }
 
 .categoria-filtro-label {
@@ -2464,12 +2455,33 @@ footer {
   letter-spacing: 0.06em;
   text-align: center;
   line-height: 1.3;
+  color: var(--blu);
 }
 
 .categoria-filtro-count {
   font-size: 0.72rem;
   font-weight: 700;
   color: var(--verde);
+}
+
+.categoria-filtro-icon {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.categoria-filtro-icon img {
+  width: auto;
+  height: 90px;
+  object-fit: contain;
+}
+
+.categoria-filtro-icon svg {
+  width: 100%;
+  height: 100%;
 }
 
 .categoria-filtro-item.active .categoria-filtro-count {

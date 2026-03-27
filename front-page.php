@@ -112,65 +112,45 @@
     <p class="section-subtitle" style="margin-bottom: 48px;">Semirimorchi <strong>nuovi e usati</strong> per ogni esigenza del <strong>trasporto professionale</strong>.</p>
     <div class="products-grid">
 
-    <a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=centinato" class="product-card fade-in">
-  <div class="product-img-svg">
-    <?php echo conca_get_category_svg('centinato'); ?>
-  </div>
+      <a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=centinati" class="product-card fade-in">
+  <div class="product-img-svg"><?php echo conca_get_category_svg('centinati'); ?></div>
   <div class="product-info">
     <div class="product-badge">Centinati</div>
-    <div class="product-name">Centinato</div>
+    <div class="product-name">Centinati</div>
     <p class="product-desc">Protezione dagli agenti atmosferici, apertura laterale facilitata. Ideale per utilizzi intensivi.</p>
-    <span class="product-link">
-      Scopri la categoria
-      <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-    </span>
+    <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
   </div>
 </a>
 
 <a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=pianale" class="product-card fade-in fade-delay-1">
-  <div class="product-img-svg">
-    <?php echo conca_get_category_svg('pianale'); ?>
-  </div>
+  <div class="product-img-svg"><?php echo conca_get_category_svg('pianale'); ?></div>
   <div class="product-info">
     <div class="product-badge">Pianali</div>
-    <div class="product-name">Pianale</div>
+    <div class="product-name">Pianalati</div>
     <p class="product-desc">Struttura aperta per carichi voluminosi o speciali. Massima flessibilità per settore industriale e logistico.</p>
-    <span class="product-link">
-      Scopri la categoria
-      <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-    </span>
+    <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
   </div>
 </a>
 
-<a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=frigorifero" class="product-card fade-in fade-delay-2">
-  <div class="product-img-svg">
-    <?php echo conca_get_category_svg('frigorifero'); ?>
-  </div>
-  <div class="product-info">
-    <div class="product-badge">Frigoriferi</div>
-    <div class="product-name">Frigorifero</div>
-    <p class="product-desc">Trasporto a temperatura controllata per il settore alimentare e logistico. Temperatura costante, integrità garantita.</p>
-    <span class="product-link">
-      Scopri la categoria
-      <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-    </span>
-  </div>
-</a>
-
-<a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=portacontainer" class="product-card fade-in fade-delay-3">
-  <div class="product-img-svg">
-    <?php echo conca_get_category_svg('portacontainer'); ?>
-  </div>
+<a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=portacontainer" class="product-card fade-in fade-delay-2">
+  <div class="product-img-svg"><?php echo conca_get_category_svg('portacontainer'); ?></div>
   <div class="product-info">
     <div class="product-badge">Portacontainer</div>
     <div class="product-name">Portacontainer</div>
     <p class="product-desc">Per il trasporto sicuro di container di diverse dimensioni. Conformi agli standard internazionali.</p>
-    <span class="product-link">
-      Scopri la categoria
-      <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-    </span>
+    <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
   </div>
 </a>
+
+<a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=furgonati" class="product-card fade-in fade-delay-3">
+  <div class="product-img-svg"><?php echo conca_get_category_svg('furgonati'); ?></div>
+  <div class="product-info">
+    <div class="product-badge">Furgonati</div>
+    <div class="product-name">Furgonati / VAN</div>
+    <p class="product-desc">Struttura chiusa per il trasporto di merci sensibili. Sicurezza e protezione totale del carico.</p>
+    <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
+  </div>
+</a> 
 
     </div>
 
