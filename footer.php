@@ -55,6 +55,8 @@
         <li><a href="<?php echo get_post_type_archive_link('rimorchi'); ?>">Rimorchi</a></li>
         <li><a href="<?php echo home_url('/assistenza'); ?>">Assistenza</a></li>
         <li><a href="<?php echo home_url('/contattaci'); ?>">Contattaci</a></li>
+        <li><a href="<?php echo home_url('/privacy-policy'); ?>">Privacy Policy</a></li>
+        <li><a href="<?php echo home_url('/cookie-policy'); ?>">Cookie Policy</a></li>
       </ul>
     </div>
 
@@ -63,7 +65,7 @@
   </div>
 
   <div class="footer-bottom">
-    <p>© <?php echo date('Y'); ?> Conca Rimorchi · P.IVA 05233440725 · Tutti i diritti riservati</p>
+    <p>© <?php echo date('Y'); ?> Conca Rimorchi · P.IVA 05233440725 · Tutti i diritti riservati · <a href="<?php echo home_url('/privacy-policy'); ?>" style="color: var(--testo-sec); text-decoration: none;">Privacy Policy</a></p>
   </div>
   <button class="back-to-top" id="backToTop" aria-label="Torna su">
   <svg viewBox="0 0 24 24" fill="white" width="20" height="20"><path d="M7 14l5-5 5 5z"/></svg>

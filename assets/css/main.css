@@ -2517,6 +2517,67 @@ footer {
   }
 }
 
+/* ── PRIVACY / COOKIE ── */
+.privacy-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.privacy-block h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--blu);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--verde);
+}
+
+.privacy-block p {
+  color: var(--grigio);
+  line-height: 1.8;
+  margin-bottom: 12px;
+  font-size: 0.97rem;
+}
+
+.privacy-block ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.privacy-block ul li {
+  color: var(--grigio);
+  font-size: 0.97rem;
+  padding-left: 16px;
+  position: relative;
+}
+
+.privacy-block ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  background: var(--verde);
+  border-radius: 50%;
+}
+
+.privacy-block a {
+  color: var(--verde);
+  text-decoration: none;
+}
+
+.privacy-block a:hover {
+  text-decoration: underline;
+}
+
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
   .products-grid {
