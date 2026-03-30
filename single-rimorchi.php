@@ -20,6 +20,7 @@
   $gomme          = get_field('gomme');
   $note           = get_field('note');
   $specifiche     = get_field('specifiche_tecniche');
+  $link_esterno = get_field('link_esterno');
 
 ?>
 
@@ -53,7 +54,7 @@
           <div class="rimorchio-title-block">
             <div class="rimorchio-badges">
               <?php if ($categoria) : ?>
-                <span class="product-badge"><?php echo esc_html($categoria); ?></span>
+                <span class="product-badge"><?php echo esc_html(conca_get_categoria_label($categoria)); ?></span>
               <?php endif; ?>
               <?php if ($condizione) : ?>
                 <span class="rimorchio-badge-inline <?php echo $condizione === 'nuovo' ? 'nuovo' : 'usato'; ?>">
@@ -81,6 +82,13 @@
               </div>
             <?php endif; ?>
           </div>
+
+          <!-- GALLERIA -->
+          <?php if (get_the_content()) : ?>
+          <div class="rimorchio-galleria">
+          <?php the_content(); ?>
+          </div>
+          <?php endif; ?>
 
           <!-- SCHEDA TECNICA -->
           <div class="rimorchio-scheda">
@@ -213,6 +221,14 @@
               </a>
             <?php endif; ?>
 
+            <!-- LINK ESTERNO -->
+            <?php if ($link_esterno) : ?>
+              <a href="<?php echo esc_url($link_esterno); ?>" target="_blank" rel="noopener" class="btn-primary" style="width: 100%; justify-content: center;">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+              Vedi annuncio esterno
+              </a>
+            <?php endif; ?>
+
             <!-- INFO RAPIDE -->
             <div class="rimorchio-info-rapide">
               <?php if ($codice) : ?>
@@ -256,5 +272,28 @@
 </main>
 
 <?php endwhile; ?>
+
+<!-- LIGHTBOX -->
+<div class="lightbox-overlay" id="lightbox">
+  <span class="lightbox-close" id="lightbox-close">×</span>
+  <img src="" alt="" id="lightbox-img">
+</div>
+
+<script>
+document.querySelectorAll('.rimorchio-galleria .wp-block-image img').forEach(img => {
+  img.addEventListener('click', () => {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox').classList.add('open');
+  });
+});
+
+document.getElementById('lightbox').addEventListener('click', () => {
+  document.getElementById('lightbox').classList.remove('open');
+});
+
+document.getElementById('lightbox-close').addEventListener('click', () => {
+  document.getElementById('lightbox').classList.remove('open');
+});
+</script>
 
 <?php get_footer(); ?>

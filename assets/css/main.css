@@ -2228,6 +2228,87 @@ footer {
   opacity: 0.4;
 }
 
+/* ── GALLERIA RIMORCHIO ── */
+.rimorchio-galleria {
+  margin-bottom: 40px;
+}
+
+.rimorchio-galleria figure,
+.rimorchio-galleria .wp-block-image {
+  margin: 0 !important;
+  width: calc(50% - 4px) !important;
+  display: inline-block !important;
+  vertical-align: top;
+}
+
+.rimorchio-galleria .wp-block-gallery {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  margin: 0 !important;
+}
+
+.rimorchio-galleria .wp-block-image img,
+.rimorchio-galleria figure img {
+  width: 100% !important;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--blu-scuro);
+}
+
+.rimorchio-galleria .wp-block-image:hover img,
+.rimorchio-galleria figure:hover img {
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .rimorchio-galleria figure,
+  .rimorchio-galleria .wp-block-image {
+    width: calc(50% - 4px) !important;
+  }
+}
+
+/* Lightbox */
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.lightbox-overlay.open {
+  display: flex;
+}
+
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 28px;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .rimorchio-galleria .wp-block-image {
+    width: 100%;
+  }
+}
+
 /* Scheda */
 .rimorchio-scheda {
   background: var(--card-bg);
