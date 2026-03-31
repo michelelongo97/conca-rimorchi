@@ -89,7 +89,7 @@ function conca_handle_contact() {
 
 // Passa il nonce al JS
 add_action('wp_enqueue_scripts', function() {
-  wp_localize_script('conca-main', 'concaAjax', [
+  wp_localize_script('conca-rimorchi-script', 'concaAjax', [
     'url'   => admin_url('admin-ajax.php'),
     'nonce' => wp_create_nonce('conca_contact_nonce'),
   ]);

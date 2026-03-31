@@ -34,9 +34,9 @@
       <a href="<?php echo get_post_type_archive_link('rimorchi'); ?>">Rimorchi</a>
       <?php if ($condizione) : ?>
         <span>›</span>
-        <a href="<?php echo home_url('/rimorchi-' . $condizione . 'i'); ?>">
-          <?php echo ucfirst($condizione) . 'i'; ?>
-        </a>
+          <a href="<?php echo home_url('/rimorchi-' . ($condizione === 'nuovo' ? 'nuovi' : 'usati')); ?>">
+            <?php echo $condizione === 'nuovo' ? 'Nuovi' : 'Usati'; ?>
+          </a>
       <?php endif; ?>
       <span>›</span>
       <span><?php the_title(); ?></span>

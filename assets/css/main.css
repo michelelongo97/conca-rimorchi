@@ -275,7 +275,7 @@ nav {
 
 .hero-flag-accent {
   position: absolute;
-  top: 0;
+  top: 36px;
   left: 0;
   right: 0;
   height: 4px;
@@ -1549,6 +1549,9 @@ footer {
   align-items: center;
   gap: 8px;
   z-index: 3;
+  cursor: pointer;
+  padding: 16px 24px;
+  pointer-events: auto;
 }
 
 .scroll-indicator span {
@@ -2121,6 +2124,7 @@ footer {
   border-bottom: 1px solid var(--bordo);
   font-size: 0.78rem;
   color: var(--testo-sec);
+  margin-top: 36px;
 }
 
 .rimorchio-breadcrumb a {
@@ -2696,14 +2700,30 @@ footer {
     padding: 72px 4%;
   }
 
+  .hero-inner {
+    padding: 40px 0;
+  }
+
   .hero-title {
     font-size: 3.2rem;
   }
   .hero-stats {
-    gap: 28px;
+    display: none;
   }
   .hero-desc {
     font-size: 0.95rem;
+  }
+
+  .hero-actions {
+    margin-bottom: 32px;
+  }
+
+  .stat-num {
+    font-size: 1.6rem;
+  }
+
+  .scroll-indicator {
+    bottom: 16px;
   }
 
   .services-grid {
@@ -2805,5 +2825,11 @@ footer {
   }
   .filtri-inner {
     flex-wrap: wrap;
+  }
+  .rimorchio-breadcrumb {
+    margin-top: 22px;
+  }
+  .hero-flag-accent {
+    top: 22px;
   }
 }

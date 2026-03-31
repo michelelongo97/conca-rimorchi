@@ -15,7 +15,6 @@
   </div>
   <div class="hero-inner">
     <div class="hero-text">
-      <div class="hero-tag">Dal 2010</div>
       <h1 class="hero-title">
         Vendita e<br>
         <span class="line-verde">assistenza</span><br>
@@ -112,7 +111,7 @@
     <p class="section-subtitle" style="margin-bottom: 48px;">Semirimorchi <strong>nuovi e usati</strong> per ogni esigenza del <strong>trasporto professionale</strong>.</p>
     <div class="products-grid">
 
-      <a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=centinati" class="product-card fade-in">
+      <a href="<?php echo home_url('/rimorchi'); ?>?categoria=centinati" class="product-card fade-in">
   <div class="product-img-svg"><?php echo conca_get_category_svg('centinati'); ?></div>
   <div class="product-info">
     <div class="product-badge">Centinati</div>
@@ -122,7 +121,7 @@
   </div>
 </a>
 
-<a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=pianale" class="product-card fade-in fade-delay-1">
+<a href="<?php echo home_url('/rimorchi'); ?>?categoria=pianale" class="product-card fade-in fade-delay-1">
   <div class="product-img-svg"><?php echo conca_get_category_svg('pianale'); ?></div>
   <div class="product-info">
     <div class="product-badge">Pianalati</div>
@@ -132,7 +131,7 @@
   </div>
 </a>
 
-<a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=furgonati" class="product-card fade-in fade-delay-3">
+<a href="<?php echo home_url('/rimorchi'); ?>?categoria=furgonati" class="product-card fade-in fade-delay-3">
   <div class="product-img-svg"><?php echo conca_get_category_svg('furgonati'); ?></div>
   <div class="product-info">
     <div class="product-badge">Furgonati</div>
@@ -142,7 +141,7 @@
   </div>
 </a> 
 
-<a href="<?php echo home_url('/rimorchi-nuovi'); ?>?categoria=ribaltabili" class="product-card fade-in fade-delay-3">
+<a href="<?php echo home_url('/rimorchi'); ?>?categoria=ribaltabili" class="product-card fade-in fade-delay-3">
   <div class="product-img-svg"><?php echo conca_get_category_svg('ribaltabili'); ?></div>
   <div class="product-info">
     <div class="product-badge">Ribaltabili</div>

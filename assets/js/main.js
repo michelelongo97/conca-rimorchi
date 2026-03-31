@@ -22,25 +22,6 @@ const observer = new IntersectionObserver(
 );
 document.querySelectorAll(".fade-in").forEach((el) => observer.observe(el));
 
-function handleSubmit(e) {
-  e.preventDefault();
-  const btn = document.getElementById("submit-btn");
-  const msg = document.getElementById("form-msg");
-  btn.textContent = "Invio in corso...";
-  btn.disabled = true;
-  setTimeout(() => {
-    btn.textContent = "Invia richiesta →";
-    btn.disabled = false;
-    msg.style.display = "block";
-    msg.style.color = "#00662b";
-    msg.textContent = "✓ Messaggio inviato! Ti risponderemo entro 24 ore.";
-    document.getElementById("contact-form").reset();
-    setTimeout(() => {
-      msg.style.display = "none";
-    }, 5000);
-  }, 1200);
-}
-
 // ── HERO SLIDESHOW ──
 const slides = document.querySelectorAll(".hero-slide");
 if (slides.length) {
