@@ -33,15 +33,15 @@
       <div class="hero-stats">
         <div class="stat-item">
           <div class="stat-num">25+</div>
-          <div class="stat-label">Anni esperienza</div>
+          <div class="stat-label">Anni di<br>esperienza<br>nel settore</div>
         </div>
         <div class="stat-item">
-          <div class="stat-num">2010</div>
-          <div class="stat-label">Fondazione</div>
+          <div class="stat-num">2000+</div>
+          <div class="stat-label">Clienti seguiti<br>tra vendita e<br>assistenza</div>
         </div>
         <div class="stat-item">
-          <div class="stat-num">360°</div>
-          <div class="stat-label">Assistenza</div>
+          <div class="stat-num">24/7</div>
+          <div class="stat-label">Assistenza<br>sempre<br>disponibile</div>
         </div>
       </div>
     </div>
@@ -109,49 +109,93 @@
     <div class="section-tag">Gamma completa</div>
     <h2 class="section-title">I nostri rimorchi</h2>
     <p class="section-subtitle" style="margin-bottom: 48px;">Semirimorchi <strong>nuovi e usati</strong> per ogni esigenza del <strong>trasporto professionale</strong>.</p>
-    <div class="products-grid">
 
-      <a href="<?php echo home_url('/rimorchi'); ?>?categoria=centinati" class="product-card fade-in">
-  <div class="product-img-svg"><?php echo conca_get_category_svg('centinati'); ?></div>
-  <div class="product-info">
-    <div class="product-badge">Centinati</div>
-    <div class="product-name">Centinati</div>
-    <p class="product-desc">Protezione dagli agenti atmosferici, apertura laterale facilitata. Ideale per utilizzi intensivi.</p>
-    <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
-  </div>
-</a>
+    <div class="products-slider-wrapper">
+      <button class="products-slider-btn products-slider-btn--prev" id="sliderPrev" aria-label="Precedente">
+        <svg viewBox="0 0 16 16" fill="white" width="16" height="16"><path d="M8 16L0 8l8-8 1.4 1.4L3.8 7H16v2H3.8l5.6 5.6z"/></svg>
+      </button>
 
-<a href="<?php echo home_url('/rimorchi'); ?>?categoria=pianale" class="product-card fade-in fade-delay-1">
-  <div class="product-img-svg"><?php echo conca_get_category_svg('pianale'); ?></div>
-  <div class="product-info">
-    <div class="product-badge">Pianalati</div>
-    <div class="product-name">Pianalati</div>
-    <p class="product-desc">Struttura aperta per carichi voluminosi o speciali. Massima flessibilità per settore industriale e logistico.</p>
-    <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
-  </div>
-</a>
+      <div class="products-slider" id="productsSlider">
 
-<a href="<?php echo home_url('/rimorchi'); ?>?categoria=furgonati" class="product-card fade-in fade-delay-3">
-  <div class="product-img-svg"><?php echo conca_get_category_svg('furgonati'); ?></div>
-  <div class="product-info">
-    <div class="product-badge">Furgonati</div>
-    <div class="product-name">Furgonati / VAN</div>
-    <p class="product-desc">Struttura chiusa per il trasporto di merci sensibili. Sicurezza e protezione totale del carico.</p>
-    <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
-  </div>
-</a> 
+        <a href="<?php echo home_url('/rimorchi'); ?>?categoria=centinati" class="product-card">
+          <div class="product-img-svg"><?php echo conca_get_category_svg('centinati'); ?></div>
+          <div class="product-info">
+            <div class="product-badge">Centinati</div>
+            <div class="product-name">Centinati</div>
+            <p class="product-desc">Protezione dagli agenti atmosferici, apertura laterale facilitata. Ideale per utilizzi intensivi.</p>
+            <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
+          </div>
+        </a>
 
-<a href="<?php echo home_url('/rimorchi'); ?>?categoria=ribaltabili" class="product-card fade-in fade-delay-3">
-  <div class="product-img-svg"><?php echo conca_get_category_svg('ribaltabili'); ?></div>
-  <div class="product-info">
-    <div class="product-badge">Ribaltabili</div>
-    <div class="product-name">Ribaltabili</div>
-    <p class="product-desc">Scarico rapido del carico grazie al sistema di ribaltamento. Ideale per materiali sfusi e cantieri.</p>
-    <span class="product-link">Scopri la categoria<svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-    </span>
-  </div>
-</a>
+        <a href="<?php echo home_url('/rimorchi'); ?>?categoria=pianale" class="product-card">
+          <div class="product-img-svg"><?php echo conca_get_category_svg('pianale'); ?></div>
+          <div class="product-info">
+            <div class="product-badge">Pianalati</div>
+            <div class="product-name">Pianalati</div>
+            <p class="product-desc">Struttura aperta per carichi voluminosi o speciali. Massima flessibilità per settore industriale e logistico.</p>
+            <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
+          </div>
+        </a>
 
+        <a href="<?php echo home_url('/rimorchi'); ?>?categoria=portacontainer" class="product-card">
+          <div class="product-img-svg"><?php echo conca_get_category_svg('portacontainer'); ?></div>
+          <div class="product-info">
+            <div class="product-badge">Portacontainer</div>
+            <div class="product-name">Portacontainer</div>
+            <p class="product-desc">Per il trasporto sicuro di container di diverse dimensioni. Conformi agli standard internazionali.</p>
+            <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
+          </div>
+        </a>
+
+        <a href="<?php echo home_url('/rimorchi'); ?>?categoria=furgonati" class="product-card">
+          <div class="product-img-svg"><?php echo conca_get_category_svg('furgonati'); ?></div>
+          <div class="product-info">
+            <div class="product-badge">Furgonati</div>
+            <div class="product-name">Furgonati / VAN</div>
+            <p class="product-desc">Struttura chiusa per il trasporto di merci sensibili. Sicurezza e protezione totale del carico.</p>
+            <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
+          </div>
+        </a>
+
+        <a href="<?php echo home_url('/rimorchi'); ?>?categoria=allestimento" class="product-card">
+          <div class="product-img-svg"><?php echo conca_get_category_svg('allestimento'); ?></div>
+          <div class="product-info">
+            <div class="product-badge">Allestimento</div>
+            <div class="product-name">Per Allestimento</div>
+            <p class="product-desc">Telai predisposti per allestimenti personalizzati. Flessibilità costruttiva per ogni esigenza specifica.</p>
+            <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
+          </div>
+        </a>
+
+        <a href="<?php echo home_url('/rimorchi'); ?>?categoria=ribaltabili" class="product-card">
+          <div class="product-img-svg"><?php echo conca_get_category_svg('ribaltabili'); ?></div>
+          <div class="product-info">
+            <div class="product-badge">Ribaltabili</div>
+            <div class="product-name">Ribaltabili</div>
+            <p class="product-desc">Scarico rapido del carico grazie al sistema di ribaltamento. Ideale per materiali sfusi e cantieri.</p>
+            <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
+          </div>
+        </a>
+
+        <a href="<?php echo home_url('/rimorchi'); ?>?categoria=piani_mobili" class="product-card">
+          <div class="product-img-svg"><?php echo conca_get_category_svg('piani_mobili'); ?></div>
+          <div class="product-info">
+            <div class="product-badge">Piani Mobili</div>
+            <div class="product-name">Piani Mobili</div>
+            <p class="product-desc">Sistema walking floor per lo scarico automatico. Ideale per materiali sfusi, rifiuti e biomasse.</p>
+            <span class="product-link">Scopri la categoria <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg></span>
+          </div>
+        </a>
+
+      </div>
+
+      <button class="products-slider-btn products-slider-btn--next" id="sliderNext" aria-label="Successivo">
+        <svg viewBox="0 0 16 16" fill="white" width="16" height="16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+      </button>
+    </div>
+    <div class="products-slider-hint">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M3 15h2v-3h4V9H5V6L0 10.5 3 15zm18-9h-4V3l-5 4.5L17 12V9h4v3h2L20 7.5 21 6z"/></svg>
+      Scorri per vedere tutte le categorie
     </div>
 
     <div class="products-cta">
@@ -216,36 +260,38 @@
       <div class="assistenza-card fade-in">
         <div class="assistenza-num">01</div>
         <div class="assistenza-name">Controlli tecnici</div>
-        <p class="assistenza-desc">Verifiche di sicurezza periodiche per mantenere i mezzi conformi alle normative vigenti e garantire la continuità operativa.</p>
       </div>
       <div class="assistenza-card fade-in fade-delay-1">
         <div class="assistenza-num">02</div>
         <div class="assistenza-name">Manutenzione</div>
-        <p class="assistenza-desc">Ordinaria e straordinaria. Interveniamo tempestivamente per ridurre i fermi operativi e mantenere i mezzi sempre efficienti su strada.</p>
       </div>
       <div class="assistenza-card fade-in fade-delay-2">
         <div class="assistenza-num">03</div>
         <div class="assistenza-name">Riparazioni mirate</div>
-        <p class="assistenza-desc">Su componenti meccanici e strutturali. Diagnosi precisa e intervento rapido per ogni tipo di problema tecnico.</p>
       </div>
       <div class="assistenza-card fade-in fade-delay-3">
         <div class="assistenza-num">04</div>
         <div class="assistenza-name">Carrozzeria</div>
-        <p class="assistenza-desc">Interventi strutturali ed estetici per riparare danni da usura o incidenti. Ripristino completo, funzionale e visivo.</p>
       </div>
       <div class="assistenza-card fade-in fade-delay-1">
         <div class="assistenza-num">05</div>
         <div class="assistenza-name">Consulenza post-vendita</div>
-        <p class="assistenza-desc">Supporto continuo. Siamo disponibili per ogni esigenza, informazione tecnica e aggiornamento nel tempo.</p>
       </div>
       <div class="assistenza-card fade-in fade-delay-2">
         
        
-        <p class="assistenza-resume">Per noi l’assistenza non è un servizio accessorio, ma una parte integrante del nostro lavoro, fondamentale per garantire
-          continuità operativa e tranquillità a chi ci sceglie.
-        </p>
+       <div class="assistenza-num">06</div>
+        <div class="assistenza-name">Magazzino ricambi</div>
       </div>
+
+       
   </div>
+  <div class="products-cta">
+          <a href="<?php echo home_url('/servizi'); ?>">
+          Vedi tutti i servizi
+            <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+          </a>
+        </div>
 </section>
 
 <!-- CONTATTI -->

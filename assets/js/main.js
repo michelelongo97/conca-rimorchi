@@ -107,3 +107,29 @@ async function handleSubmit(e) {
     btn.disabled = false;
   }
 }
+
+// ── PRODUCTS SLIDER ──
+const slider = document.getElementById("productsSlider");
+const btnPrev = document.getElementById("sliderPrev");
+const btnNext = document.getElementById("sliderNext");
+
+if (slider && btnPrev && btnNext) {
+  const scrollAmount = () =>
+    slider.querySelector(".product-card").offsetWidth + 2;
+
+  btnNext.addEventListener("click", () => {
+    slider.scrollBy({ left: scrollAmount(), behavior: "smooth" });
+  });
+
+  btnPrev.addEventListener("click", () => {
+    slider.scrollBy({ left: -scrollAmount(), behavior: "smooth" });
+  });
+
+  slider.addEventListener("scroll", () => {
+    btnPrev.disabled = slider.scrollLeft <= 0;
+    btnNext.disabled =
+      slider.scrollLeft + slider.offsetWidth >= slider.scrollWidth - 2;
+  });
+
+  btnPrev.disabled = true;
+}

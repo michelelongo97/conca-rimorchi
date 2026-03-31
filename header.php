@@ -42,9 +42,7 @@
 <div class="mobile-menu" id="mobile-menu">
   <ul>
     <li><a href="<?php echo home_url('/servizi'); ?>" class="close-menu">Servizi</a></li>
-    <li><a href="<?php echo home_url('/rimorchi-nuovi'); ?>" class="close-menu">Rimorchi Nuovi</a></li>
-    <li><a href="<?php echo home_url('/rimorchi-usati'); ?>" class="close-menu">Rimorchi Usati</a></li>
-    <li><a href="<?php echo get_post_type_archive_link('rimorchi'); ?>">Tutti i rimorchi</a></li>
+    <li><a href="<?php echo get_post_type_archive_link('rimorchi'); ?>">Rimorchi</a></li>
     <li><a href="<?php echo home_url('/assistenza'); ?>" class="close-menu">Assistenza</a></li>
     <li><a href="<?php echo home_url('/azienda'); ?>" class="close-menu">Azienda</a></li>
     <li><a href="<?php echo home_url('/contattaci'); ?>" class="close-menu">Contattaci</a></li>

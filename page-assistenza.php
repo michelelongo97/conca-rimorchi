@@ -13,33 +13,33 @@
     <div class="page-hero-inner">
       <div class="section-tag">Competenza tecnica</div>
       <h1 class="page-hero-title">Assistenza<br><span style="color: var(--verde);">specializzata</span></h1>
-      <p class="page-hero-desc">Supporto completo per la <strong>manutenzione, la riparazione e il ripristino</strong> dei tuoi rimorchi. Interventi rapidi, personale qualificato, carrozzeria interna.</p>
+      <p class="page-hero-desc">Supporto completo per la <strong>manutenzione, la riparazione e il ripristino</strong> dei tuoi rimorchi. Interventi rapidi, personale qualificato, magazzino ricambi interno.</p>
     </div>
   </section>
 
-<!-- INTRO -->
-<section class="page-section section-light" style="border-top: 1px solid #d0d8ee;">
-  <div class="section-inner">
-    <div class="assistenza-intro-grid">
+  <!-- INTRO -->
+  <section class="page-section section-light" style="border-top: 1px solid #d0d8ee;">
+    <div class="section-inner">
+      <div class="assistenza-intro-grid">
 
-      <div>
-        <div class="section-tag">Il nostro approccio</div>
-        <h2 class="section-title" style="color: var(--blu);">Per noi l'assistenza<br>viene prima di tutto</h2>
-        <div class="accent-divider"></div>
-        <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Per noi l'assistenza non è un servizio accessorio, ma una <strong style="color: var(--blu);">parte integrante del nostro lavoro</strong>, fondamentale per garantire continuità operativa e tranquillità a chi ci sceglie.</p>
-        <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Ogni intervento viene eseguito da <strong style="color: var(--blu);">personale qualificato</strong>, con attenzione ai dettagli e nel pieno rispetto delle normative vigenti. Interveniamo in modo tempestivo per ridurre i fermi operativi e gli imprevisti.</p>
-        <p style="color: var(--grigio); line-height: 1.75;">Grazie alla presenza di una <strong style="color: var(--blu);">carrozzeria interna</strong>, siamo in grado di eseguire interventi strutturali ed estetici, riportando il mezzo alle condizioni ottimali.</p>
-      </div>
-
-      <div class="assistenza-intro-img">
-        <div class="azienda-main-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assistenza/officina.jpg" alt="Officina Conca Rimorchi">
+        <div>
+          <div class="section-tag">Il nostro approccio</div>
+          <h2 class="section-title" style="color: var(--blu);">Per noi l'assistenza<br>viene prima di tutto</h2>
+          <div class="accent-divider"></div>
+          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Per noi l'assistenza non è un servizio accessorio, ma una <strong style="color: var(--blu);">parte integrante del nostro lavoro</strong>, fondamentale per garantire continuità operativa e tranquillità a chi ci sceglie.</p>
+          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Ogni intervento viene eseguito da <strong style="color: var(--blu);">personale qualificato</strong>, con attenzione ai dettagli e nel pieno rispetto delle normative vigenti. Interveniamo in modo tempestivo per ridurre i fermi operativi e gli imprevisti.</p>
+          <p style="color: var(--grigio); line-height: 1.75;">Disponiamo di un <strong style="color: var(--blu);">magazzino ricambi interno</strong> e di una officina attrezzata per eseguire interventi strutturali ed estetici, riportando il mezzo alle condizioni ottimali.</p>
         </div>
-      </div>
 
+        <div class="assistenza-intro-img">
+          <div class="azienda-main-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assistenza/officina.jpg" alt="Officina Conca Rimorchi">
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- I 6 PUNTI -->
   <section class="page-section" style="background: var(--nero); border-top: 1px solid var(--bordo);">
@@ -69,8 +69,8 @@
 
         <div class="assistenza-card fade-in fade-delay-3">
           <div class="assistenza-num">04</div>
-          <div class="assistenza-name">Carrozzeria interna</div>
-          <p class="assistenza-desc">Interventi strutturali ed estetici per riparare danni da usura o incidenti. Ripristino completo, funzionale e visivo. La nostra carrozzeria interna ci permette di gestire l'intero processo senza subappaltare, garantendo qualità e tempi certi.</p>
+          <div class="assistenza-name">Interventi di carrozzeria</div>
+          <p class="assistenza-desc">Interventi strutturali ed estetici per riparare danni da usura o incidenti. Ripristino completo, funzionale e visivo. Gestiamo l'intero processo internamente, garantendo qualità controllata e tempi certi.</p>
         </div>
 
         <div class="assistenza-card fade-in fade-delay-1">
@@ -80,42 +80,42 @@
         </div>
 
         <div class="assistenza-card fade-in fade-delay-2">
-           <p class="assistenza-resume">Per noi l’assistenza non è un servizio accessorio, ma una parte integrante del nostro lavoro, fondamentale per garantire
-          continuità operativa e tranquillità a chi ci sceglie.
-        </p>
+          <div class="assistenza-num">06</div>
+          <div class="assistenza-name">Magazzino ricambi</div>
+          <p class="assistenza-desc">Disponiamo di un magazzino ricambi interno fornito di componenti originali e compatibili per le principali marche di semirimorchi. Questo ci permette di intervenire rapidamente, riducendo i tempi di fermo e garantendo la reperibilità dei pezzi.</p>
         </div>
 
       </div>
     </div>
   </section>
 
-<!-- CARROZZERIA -->
-<section class="page-section section-light" style="border-top: 1px solid #d0d8ee;">
-  <div class="section-inner">
-    <div class="assistenza-intro-grid">
+  <!-- CARROZZERIA -->
+  <section class="page-section section-light" style="border-top: 1px solid #d0d8ee;">
+    <div class="section-inner">
+      <div class="assistenza-intro-grid">
 
-      <div class="assistenza-intro-img">
-        <div class="azienda-main-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assistenza/carrozzeria.jpg" alt="Carrozzeria Conca Rimorchi">
+        <div class="assistenza-intro-img">
+          <div class="azienda-main-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assistenza/carrozzeria.jpg" alt="Interventi di carrozzeria Conca Rimorchi">
+          </div>
         </div>
-      </div>
 
-      <div>
-        <div class="section-tag">Il nostro vantaggio</div>
-        <h2 class="section-title" style="color: var(--blu);">Carrozzeria<br>interna</h2>
-        <div class="accent-divider"></div>
-        <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Uno dei punti di forza di Conca Rimorchi è la presenza di una <strong style="color: var(--blu);">carrozzeria interna</strong> attrezzata per ogni tipo di intervento strutturale ed estetico.</p>
-        <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Questo ci permette di gestire internamente riparazioni che altri affidano a terzi, garantendo <strong style="color: var(--blu);">tempi certi, qualità controllata e costi trasparenti</strong>.</p>
-        <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 36px;">Dalla riparazione di danni da incidente al ripristino estetico completo, il mezzo torna nelle tue mani <strong style="color: var(--blu);">nelle condizioni ottimali</strong> sia funzionali che visive.</p>
-        <a href="<?php echo home_url('/contattaci'); ?>" class="btn-primary">
-          Richiedi un intervento
-          <svg viewBox="0 0 16 16" fill="white" width="14" height="14"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-        </a>
-      </div>
+        <div>
+          <div class="section-tag">Il nostro vantaggio</div>
+          <h2 class="section-title" style="color: var(--blu);">Interventi di<br>carrozzeria</h2>
+          <div class="accent-divider"></div>
+          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Disponiamo di una struttura attrezzata per ogni tipo di intervento strutturale ed estetico sui semirimorchi, gestendo internamente ciò che altri affidano a terzi.</p>
+          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Questo approccio garantisce <strong style="color: var(--blu);">tempi certi, qualità controllata e costi trasparenti</strong>, con un unico punto di riferimento per tutto il processo.</p>
+          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 36px;">Dalla riparazione di danni da incidente al ripristino estetico completo, il mezzo torna nelle tue mani <strong style="color: var(--blu);">nelle condizioni ottimali</strong> sia funzionali che visive.</p>
+          <a href="<?php echo home_url('/contattaci'); ?>" class="btn-primary">
+            Richiedi un intervento
+            <svg viewBox="0 0 16 16" fill="white" width="14" height="14"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+          </a>
+        </div>
 
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- CTA -->
   <section class="page-section" style="background: var(--blu-scuro); border-top: 1px solid var(--bordo); text-align: center;">
