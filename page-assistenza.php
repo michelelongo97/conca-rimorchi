@@ -17,23 +17,24 @@
     </div>
   </section>
 
-  <!-- INTRO -->
+<!-- INTRO -->
 <section class="page-section section-light" style="border-top: 1px solid #d0d8ee;">
   <div class="section-inner">
     <div class="assistenza-intro-grid">
 
-      <!-- SINISTRA: titolo -->
       <div>
         <div class="section-tag">Il nostro approccio</div>
         <h2 class="section-title" style="color: var(--blu);">Per noi l'assistenza<br>viene prima di tutto</h2>
         <div class="accent-divider"></div>
-      </div>
-
-      <!-- DESTRA: testo -->
-      <div>
         <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Per noi l'assistenza non è un servizio accessorio, ma una <strong style="color: var(--blu);">parte integrante del nostro lavoro</strong>, fondamentale per garantire continuità operativa e tranquillità a chi ci sceglie.</p>
         <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Ogni intervento viene eseguito da <strong style="color: var(--blu);">personale qualificato</strong>, con attenzione ai dettagli e nel pieno rispetto delle normative vigenti. Interveniamo in modo tempestivo per ridurre i fermi operativi e gli imprevisti.</p>
-        <p style="color: var(--grigio); line-height: 1.75;">Grazie alla presenza di una <strong style="color: var(--blu);">carrozzeria interna</strong>, siamo in grado di eseguire interventi strutturali ed estetici, riportando il mezzo alle condizioni ottimali sia dal punto di vista funzionale che visivo.</p>
+        <p style="color: var(--grigio); line-height: 1.75;">Grazie alla presenza di una <strong style="color: var(--blu);">carrozzeria interna</strong>, siamo in grado di eseguire interventi strutturali ed estetici, riportando il mezzo alle condizioni ottimali.</p>
+      </div>
+
+      <div class="assistenza-intro-img">
+        <div class="azienda-main-img">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assistenza/officina.jpg" alt="Officina Conca Rimorchi">
+        </div>
       </div>
 
     </div>
@@ -93,8 +94,16 @@
   <div class="section-inner">
     <div class="assistenza-intro-grid">
 
-      <!-- SINISTRA: testo -->
+      <div class="assistenza-intro-img">
+        <div class="azienda-main-img">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assistenza/carrozzeria.jpg" alt="Carrozzeria Conca Rimorchi">
+        </div>
+      </div>
+
       <div>
+        <div class="section-tag">Il nostro vantaggio</div>
+        <h2 class="section-title" style="color: var(--blu);">Carrozzeria<br>interna</h2>
+        <div class="accent-divider"></div>
         <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Uno dei punti di forza di Conca Rimorchi è la presenza di una <strong style="color: var(--blu);">carrozzeria interna</strong> attrezzata per ogni tipo di intervento strutturale ed estetico.</p>
         <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Questo ci permette di gestire internamente riparazioni che altri affidano a terzi, garantendo <strong style="color: var(--blu);">tempi certi, qualità controllata e costi trasparenti</strong>.</p>
         <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 36px;">Dalla riparazione di danni da incidente al ripristino estetico completo, il mezzo torna nelle tue mani <strong style="color: var(--blu);">nelle condizioni ottimali</strong> sia funzionali che visive.</p>
@@ -102,13 +111,6 @@
           Richiedi un intervento
           <svg viewBox="0 0 16 16" fill="white" width="14" height="14"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
         </a>
-      </div>
-
-      <!-- DESTRA: titolo -->
-      <div>
-        <div class="section-tag">Il nostro vantaggio</div>
-        <h2 class="section-title" style="color: var(--blu);">Carrozzeria<br>interna</h2>
-        <div class="accent-divider"></div>
       </div>
 
     </div>

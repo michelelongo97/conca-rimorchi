@@ -22,22 +22,24 @@
   <div class="section-inner">
     <div class="azienda-page-grid">
 
-      <!-- SINISTRA: solo testo -->
-      <div class="azienda-page-text">
-        <p>Conca Rimorchi nasce ufficialmente nel <strong>2010</strong> dall'esperienza di <strong>Leonardo Conca</strong>, agente di commercio nel settore dei veicoli industriali sin dal 1998.</p>
-        <p>Ma la sua passione per i mezzi affonda le radici molto più lontano nel tempo: cresce sin da bambino a stretto contatto con questo mondo, seguendo il padre autotrasportatore durante le estati, respirando <strong>strada, lavoro e sacrificio</strong>.</p>
-        <p>È proprio in quei momenti che la curiosità di un bambino si trasforma in una vocazione, fino a diventare una <strong>scelta di vita e di lavoro</strong>.</p>
-        <p>La prima sede operativa viene istituita nel cuore del settore dei mezzi industriali, <strong>tra Andria e Corato</strong>, un'area strategica che nel tempo ha ospitato anche la seconda e attuale sede, punto di riferimento definitivo per l'attività.</p>
-        <p>Oggi Conca Rimorchi continua a crescere mantenendo salde le proprie origini, con uno sguardo sempre rivolto al futuro, ma con la <strong>stessa passione di allora</strong>.</p>
+      <!-- SINISTRA: titolo + testo -->
+      <div>
+        <div class="section-tag">Le nostre radici</div>
+        <h2 class="section-title" style="color: var(--blu);">Una storia fatta<br>di esperienza</h2>
+        <div class="accent-divider"></div>
+        <div class="azienda-page-text">
+          <p>Conca Rimorchi nasce ufficialmente nel <strong>2010</strong> dall'esperienza di <strong>Leonardo Conca</strong>, agente di commercio nel settore dei veicoli industriali sin dal 1998.</p>
+          <p>Ma la sua passione per i mezzi affonda le radici molto più lontano nel tempo: cresce sin da bambino a stretto contatto con questo mondo, seguendo il padre autotrasportatore durante le estati, respirando <strong>strada, lavoro e sacrificio</strong>.</p>
+          <p>È proprio in quei momenti che la curiosità di un bambino si trasforma in una vocazione, fino a diventare una <strong>scelta di vita e di lavoro</strong>.</p>
+          <p>La prima sede operativa viene istituita nel cuore del settore dei mezzi industriali, <strong>tra Andria e Corato</strong>, un'area strategica che nel tempo ha ospitato anche la seconda e attuale sede, punto di riferimento definitivo per l'attività.</p>
+          <p>Oggi Conca Rimorchi continua a crescere mantenendo salde le proprie origini, con uno sguardo sempre rivolto al futuro, ma con la <strong>stessa passione di allora</strong>.</p>
+        </div>
       </div>
 
-      <!-- DESTRA: titolo + logo -->
+      <!-- DESTRA: foto -->
       <div class="azienda-page-img">
-        <div class="section-tag">Le nostre radici</div>
-        <h2 class="section-title">Una storia fatta<br>di esperienza</h2>
-        <div class="accent-divider"></div>
-        <div class="azienda-logo-box">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Conca Rimorchi">
+        <div class="azienda-main-img">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fotospalle.jpg" alt="Leonardo Conca">
         </div>
       </div>
 
@@ -72,30 +74,30 @@
   </section>
 
   <!-- NUMERI -->
-  <section class="page-section section-light" style="border-top: 1px solid #d0d8ee;">
-    <div class="section-inner">
-      <div class="section-tag">In numeri</div>
-      <h2 class="section-title" style="color: var(--blu); margin-bottom: 60px;">Conca Rimorchi<br>in cifre</h2>
-      <div class="azienda-numeri-grid">
-        <div class="azienda-numero">
-          <div class="azienda-numero-val">1998</div>
-          <div class="azienda-numero-label">Anno in cui Leonardo<br>entra nel settore</div>
-        </div>
-        <div class="azienda-numero">
-          <div class="azienda-numero-val">2010</div>
-          <div class="azienda-numero-label">Anno di fondazione<br>di Conca Rimorchi</div>
-        </div>
-        <div class="azienda-numero">
-          <div class="azienda-numero-val">25+</div>
-          <div class="azienda-numero-label">Anni di esperienza<br>nel settore</div>
-        </div>
-        <div class="azienda-numero">
-          <div class="azienda-numero-val">360°</div>
-          <div class="azienda-numero-label">Servizio completo<br>vendita e assistenza</div>
-        </div>
+<section class="page-section section-light" style="border-top: 1px solid #d0d8ee;">
+  <div class="section-inner">
+    <div class="section-tag">In numeri</div>
+    <h2 class="section-title" style="color: var(--blu); margin-bottom: 60px;">Conca Rimorchi<br>in cifre</h2>
+    <div class="azienda-numeri-grid">
+      <div class="azienda-numero">
+        <div class="azienda-numero-val">25+</div>
+        <div class="azienda-numero-label">Anni di esperienza<br>nel settore</div>
+      </div>
+      <div class="azienda-numero">
+        <div class="azienda-numero-val">2000+</div>
+        <div class="azienda-numero-label">Clienti seguiti tra<br>vendita e assistenza</div>
+      </div>
+      <div class="azienda-numero">
+        <div class="azienda-numero-val">10.000+</div>
+        <div class="azienda-numero-label">Interventi di manutenzione<br>effettuati</div>
+      </div>
+      <div class="azienda-numero">
+        <div class="azienda-numero-val">24/7</div>
+        <div class="azienda-numero-label">Assistenza sempre<br>disponibile</div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- VALORI -->
   <section class="page-section" style="background: var(--nero); border-top: 1px solid var(--bordo);">
