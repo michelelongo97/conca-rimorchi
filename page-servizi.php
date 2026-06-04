@@ -37,9 +37,9 @@
           <div class="section-tag">Servizio 01</div>
           <h2 class="section-title" style="color: var(--blu);">Assistenza e<br>Manutenzione</h2>
           <div class="accent-divider"></div>
-          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Forniamo un servizio di <strong style="color: var(--blu);">assistenza tecnica specializzata</strong> pensato per garantire nel tempo l'efficienza, la sicurezza e l'affidabilità dei mezzi.</p>
-          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Ogni intervento viene eseguito da <strong style="color: var(--blu);">personale qualificato</strong>, con attenzione ai dettagli e nel pieno rispetto delle normative vigenti. Ci occupiamo di manutenzione ordinaria e straordinaria, controlli tecnici periodici e riparazioni mirate.</p>
-          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 36px;">Il nostro obiettivo è assicurare mezzi sempre <strong style="color: var(--blu);">pronti all'uso, sicuri su strada e performanti</strong> nel lavoro quotidiano.</p>
+          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Garantiamo un servizio di <strong style="color: var(--blu);">assistenza tecnica qualificata</strong> pensato per garantire nel tempo l'efficienza, la sicurezza e l'affidabilità dei mezzi acquistati tramite la nostra azienda.</p>
+          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 18px;">Ogni intervento viene eseguito da <strong style="color: var(--blu);">officine autorizzate e partner specializzati</strong>, selezionati dalla nostra rete di assistenza, con attenzione ai dettagli e nel pieno rispetto delle normative vigenti.</p>
+          <p style="color: var(--grigio); line-height: 1.75; margin-bottom: 36px;">Il nostro obiettivo è assicurare mezzi sempre <strong style="color: var(--blu);">pronti all'uso, sicuri su strada e performanti</strong> nel lavoro quotidiano, con un supporto post-vendita dedicato ai nostri clienti.</p>
           <a href="<?php echo home_url('/assistenza'); ?>" class="btn-primary">
             Scopri l'assistenza
             <svg viewBox="0 0 16 16" fill="white" width="14" height="14"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
@@ -77,7 +77,6 @@
             <svg viewBox="0 0 16 16" fill="white" width="14" height="14"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
           </a>
         </div>
-        
       </div>
     </div>
   </section>
@@ -131,15 +130,15 @@
         <div class="perche-item">
           <div class="perche-icon">✓</div>
           <div class="perche-text">
-            <div class="perche-name">Personale qualificato</div>
-            <p class="perche-desc">Tecnici specializzati per ogni tipo di intervento</p>
+            <div class="perche-name">Rete di assistenza autorizzata</div>
+            <p class="perche-desc">Officine partner selezionate e convenzionate per ogni tipo di intervento</p>
           </div>
         </div>
         <div class="perche-item">
           <div class="perche-icon">✓</div>
           <div class="perche-text">
-            <div class="perche-name">Carrozzeria interna</div>
-            <p class="perche-desc">Interventi strutturali ed estetici senza subappalti</p>
+            <div class="perche-name">Magazzino ricambi interno</div>
+            <p class="perche-desc">Componenti originali e compatibili sempre disponibili per interventi rapidi</p>
           </div>
         </div>
         <div class="perche-item">
@@ -153,7 +152,7 @@
           <div class="perche-icon">✓</div>
           <div class="perche-text">
             <div class="perche-name">Ricambi originali</div>
-            <p class="perche-desc">Gamma completa di ricambi originali e compatibili</p>
+            <p class="perche-desc">Gamma completa di ricambi originali e compatibili selezionati</p>
           </div>
         </div>
         <div class="perche-item">

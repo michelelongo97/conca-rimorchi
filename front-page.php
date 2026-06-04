@@ -3,10 +3,10 @@
 <!-- HERO -->
 <section id="hero">
   <div class="hero-slideshow">
-  <div class="hero-slide active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-1.png')"></div>
-  <div class="hero-slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-2.png')"></div>
-  <div class="hero-slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-3.png')"></div>
-</div>
+    <div class="hero-slide active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-1.png')"></div>
+    <div class="hero-slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-2.png')"></div>
+    <div class="hero-slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-3.png')"></div>
+  </div>
   <div class="hero-overlay"></div>
   <div class="hero-flag-accent">
     <span class="fa-verde"></span>
@@ -21,7 +21,7 @@
         rimorchi
       </h1>
       <p class="hero-desc">
-        Conca Rimorchi è il punto di riferimento per <strong>vendita e assistenza di rimorchi</strong>, pensati per rispondere alle esigenze di <strong>professionisti, aziende e privati</strong>. Da anni lavoriamo con un obiettivo preciso: offrire mezzi <strong>sicuri, performanti e conformi alle normative</strong>.
+        Conca Rimorchi è il punto di riferimento per la <strong>vendita di rimorchi e semirimorchi</strong>, pensati per rispondere alle esigenze di <strong>professionisti e aziende di trasporto</strong>. Da anni lavoriamo con un obiettivo preciso: offrire mezzi <strong>sicuri, performanti e conformi alle normative</strong>.
       </p>
       <div class="hero-actions">
         <a href="#prodotti" class="btn-primary">
@@ -38,10 +38,6 @@
         <div class="stat-item">
           <div class="stat-num">2000+</div>
           <div class="stat-label">Clienti seguiti<br>tra vendita e<br>assistenza</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">24/7</div>
-          <div class="stat-label">Assistenza<br>sempre<br>disponibile</div>
         </div>
       </div>
     </div>
@@ -69,7 +65,7 @@
             <svg viewBox="0 0 24 24"><path d="M19 7h-3V6a4 4 0 0 0-8 0v1H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zm-9-1a2 2 0 0 1 4 0v1h-4V6zm10 14H4V9h3v1a1 1 0 0 0 2 0V9h6v1a1 1 0 0 0 2 0V9h3v11z"/></svg>
           </div>
           <div class="service-name">Assistenza e Manutenzione</div>
-          <p class="service-desc">Forniamo un servizio di <strong>assistenza tecnica specializzata</strong> pensato per garantire nel tempo l'efficienza, la sicurezza e l'affidabilità dei mezzi. Ogni intervento viene eseguito da <strong>personale qualificato</strong>, con attenzione ai dettagli e nel pieno rispetto delle normative vigenti.</p>
+          <p class="service-desc">Garantiamo <strong>assistenza tecnica qualificata</strong> attraverso una rete di officine partner autorizzate e selezionate, pensata per assicurare efficienza, sicurezza e affidabilità dei mezzi nel tempo.</p>
         </div>
       </div>
 
@@ -107,7 +103,7 @@
 <section id="prodotti">
   <div class="section-inner">
     <div class="section-tag">Gamma completa</div>
-    <h2 class="section-title">I nostri rimorchi</h2>
+    <h2 class="section-title">Scopri i Rimorchi<br>e i Semirimorchi</h2>
     <p class="section-subtitle" style="margin-bottom: 48px;">Semirimorchi <strong>nuovi e usati</strong> per ogni esigenza del <strong>trasporto professionale</strong>.</p>
 
     <div class="products-slider-wrapper">
@@ -249,13 +245,12 @@
   </div>
 </section>
 
-
 <!-- ASSISTENZA -->
 <section id="assistenza">
   <div class="section-inner">
     <div class="section-tag">Competenza tecnica</div>
     <h2 class="section-title">Assistenza<br>specializzata</h2>
-    <p class="section-subtitle">Supporto completo per la <strong>manutenzione, la riparazione e il ripristino</strong> dei tuoi rimorchi. Interventi rapidi, <strong>personale qualificato</strong>, carrozzeria interna.</p>
+    <p class="section-subtitle">Supporto completo per la <strong>manutenzione, la riparazione e il ripristino</strong> dei rimorchi e semirimorchi acquistati tramite la nostra azienda. Grazie alla collaborazione con <strong>officine partner autorizzate</strong>, garantiamo assistenza qualificata prima e dopo la consegna del mezzo.</p>
     <div class="assistenza-grid">
       <div class="assistenza-card fade-in">
         <div class="assistenza-num">01</div>
@@ -271,27 +266,24 @@
       </div>
       <div class="assistenza-card fade-in fade-delay-3">
         <div class="assistenza-num">04</div>
-        <div class="assistenza-name">Carrozzeria</div>
+        <div class="assistenza-name">Interventi di carrozzeria</div>
       </div>
       <div class="assistenza-card fade-in fade-delay-1">
         <div class="assistenza-num">05</div>
         <div class="assistenza-name">Consulenza post-vendita</div>
       </div>
       <div class="assistenza-card fade-in fade-delay-2">
-        
-       
-       <div class="assistenza-num">06</div>
+        <div class="assistenza-num">06</div>
         <div class="assistenza-name">Magazzino ricambi</div>
       </div>
-
-       
+    </div>
+    <div class="products-cta">
+      <a href="<?php echo home_url('/assistenza'); ?>">
+        Scopri il servizio di assistenza
+        <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
+      </a>
+    </div>
   </div>
-  <div class="products-cta">
-          <a href="<?php echo home_url('/servizi'); ?>">
-          Vedi tutti i servizi
-            <svg viewBox="0 0 16 16"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
-          </a>
-        </div>
 </section>
 
 <!-- CONTATTI -->
@@ -300,17 +292,15 @@
     <div class="contatti-home-grid">
       <div>
         <div class="section-tag">Siamo a tua disposizione</div>
-        <h2 class="section-title">Contattaci</h2>
+        <h2 class="section-title">Cerchi il rimorchio giusto<br>per la tua attività?</h2>
         <p class="section-subtitle" style="margin-bottom: 32px;">
-          Hai bisogno di informazioni, vuoi un preventivo o desideri una consulenza personalizzata?
-          Contatta Conca Rimorchi: il nostro team è pronto ad ascoltarti e guidarti verso la soluzione più adatta alle tue esigenze.
+          Richiedi una consulenza personalizzata — il nostro team è pronto ad ascoltarti e guidarti verso la soluzione più adatta alle tue esigenze.
         </p>
         <div style="display: flex; gap: 16px; flex-wrap: wrap; align-items: center;">
           <a href="<?php echo home_url('/contattaci'); ?>" class="btn-primary">
-            Vai alla pagina contatti
+            Richiedi una consulenza
             <svg viewBox="0 0 16 16" fill="white" width="14" height="14"><path d="M8 0l8 8-8 8-1.4-1.4L12.2 9H0V7h12.2L6.6 1.4z"/></svg>
           </a>
-          
         </div>
       </div>
     </div>
